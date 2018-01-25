@@ -1,0 +1,356 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://ap5.salesforce.com/analytics/wave/dashboard?assetId=0FK7F00000024CxWAI&orgId=00D7F000004cQeq&loginHost=ap5.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0057F000002WjVFQA0",
+    "name": "User Test",
+    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-01-24T09:16:52.000Z",
+  "datasets": [
+    {
+      "id": "0Fb7F0000008YQFSA2",
+      "label": "DTC Opportunity",
+      "name": "DTC_Opportunity_SAMPLE",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F0000008YQFSA2"
+    }
+  ],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 5138,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F000000L626WAC",
+      "lastModifiedDate": "2018-01-24T09:41:06.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F00000024CxWAI/files/0FJ7F000000L626WAC"
+    }
+  ],
+  "folder": {
+    "id": "00l7F000000m3HiQAI",
+    "label": "App2",
+    "name": "App2",
+    "url": "/services/data/v41.0/wave/folders/00l7F000000m3HiQAI"
+  },
+  "id": "0FK7F00000024CxWAI",
+  "label": "App2_db1",
+  "lastAccessedDate": "2018-01-24T10:06:44.000Z",
+  "lastModifiedBy": {
+    "id": "0057F000002WjVFQA0",
+    "name": "User Test",
+    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-01-24T09:41:04.000Z",
+  "mobileDisabled": false,
+  "name": "App2_db2",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2018-01-24T08:52:43.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "name": "Default",
+        "numColumns": 12,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "af24a68a-5b1f-4212-a5c4-71127771173c",
+            "widgets": [
+              {
+                "colspan": 2,
+                "column": 4,
+                "name": "number_1",
+                "row": 0,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 11,
+                "column": 1,
+                "name": "chart_1",
+                "row": 1,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#F2F6FA",
+          "cellSpacingX": 8,
+          "cellSpacingY": 8,
+          "fit": "original",
+          "gutterColor": "#C5D3E0"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Closed_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000008YQFSA2",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000008YQFSA2"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Closed&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "showMeasureTitle": true,
+            "valueType": "compactNumber",
+            "showTotal": true,
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "origami",
+            "theme": "wave",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                150,
+                150
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "all_Amount_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000008YQFSA2",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000008YQFSA2"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;],[&quot;sum&quot;,&quot;Amount&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "number_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "count",
+          "numberColor": "#335779",
+          "numberSize": 32,
+          "step": "all_Amount_1",
+          "textAlignment": "right",
+          "title": "Count of Rows",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "chart_1": {
+        "parameters": {
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "showMeasureTitle": true,
+          "valueType": "compactNumber",
+          "showTotal": true,
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "origami",
+          "theme": "wave",
+          "step": "Closed_1",
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              150,
+              150
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          }
+        },
+        "type": "chart"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F00000024CxWAI"
+}
