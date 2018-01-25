@@ -1,0 +1,625 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://ap5.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000002482WAA&orgId=00D7F000004cQeq&loginHost=ap5.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0057F000002WjVFQA0",
+    "name": "User Test",
+    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-01-24T08:52:43.000Z",
+  "datasets": [
+    {
+      "id": "0Fb7F0000008YQFSA2",
+      "label": "DTC Opportunity",
+      "name": "DTC_Opportunity_SAMPLE",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F0000008YQFSA2"
+    }
+  ],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 19138,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F000000L61kWAC",
+      "lastModifiedDate": "2018-01-24T09:33:55.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F0000002482WAA/files/0FJ7F000000L61kWAC"
+    }
+  ],
+  "folder": {
+    "id": "00l7F000001kT54QAE",
+    "label": "App3",
+    "name": "My_DTC_Sales",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001kT54QAE"
+  },
+  "id": "0FK7F0000002482WAA",
+  "label": "App3_db3",
+  "lastAccessedDate": "2018-01-24T10:06:44.000Z",
+  "lastModifiedBy": {
+    "id": "0057F000002WjVFQA0",
+    "name": "User Test",
+    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-01-24T09:33:53.000Z",
+  "mobileDisabled": false,
+  "name": "Regional_Sales_SAMPLE",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2018-01-24T08:52:43.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "maxWidth": 1440,
+        "name": "Default",
+        "numColumns": 18,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "fa1da55d-9257-4881-8d3d-18708ab32b9a",
+            "widgets": [
+              {
+                "colspan": 13,
+                "column": 4,
+                "name": "text_1",
+                "row": 0,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 16,
+                "column": 1,
+                "name": "pillbox_1",
+                "row": 1,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#C5D3E0",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 4,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 1,
+                "name": "chart_3",
+                "row": 2,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "#335779",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 8,
+                "name": "chart_1",
+                "row": 2,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "#335779",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 16,
+                "column": 1,
+                "name": "container_5",
+                "row": 2,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "#335779",
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 16,
+                "column": 1,
+                "name": "text_2",
+                "row": 8,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 16,
+                "column": 1,
+                "name": "table_3",
+                "row": 9,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 1,
+                "name": "link_1",
+                "row": 0,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#F2F6FA",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 1
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#FFFFFF",
+          "cellSpacingX": 16,
+          "cellSpacingY": 16,
+          "documentId": "",
+          "fit": "original"
+        },
+        "version": 1
+      },
+      {
+        "name": "Phone",
+        "numColumns": 2,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "fa1da55d-9257-4881-8d3d-18708ab32b9a",
+            "widgets": [
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "link_1",
+                "row": 0,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#F2F6FA",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "pillbox_1",
+                "row": 1,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#C5D3E0",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "chart_3",
+                "row": 2,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "#335779",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "chart_1",
+                "row": 8,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "#335779",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "container_5",
+                "row": 2,
+                "rowspan": 12,
+                "widgetStyle": {
+                  "backgroundColor": "#335779",
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "text_2_mobile",
+                "row": 14,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "table_3",
+                "row": 15,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [
+          "maxWidth(599)"
+        ],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#FFFFFF",
+          "cellSpacingX": 8,
+          "cellSpacingY": 8,
+          "fit": "original",
+          "gutterColor": "#FFFFFF"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Account_BillingCount_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000008YQFSA2",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000008YQFSA2"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Billing_Country&quot;],&quot;filters&quot;:[[&quot;Won&quot;,[&quot;true&quot;],&quot;in&quot;]],&quot;order&quot;:[[-1,{&quot;ascending&quot;:false}]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "static_1": {
+        "broadcastFacet": false,
+        "datasets": [],
+        "dimensions": [],
+        "groups": [],
+        "isGlobal": false,
+        "numbers": [],
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;World&quot;]}",
+        "strings": [],
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;World&quot;,&quot;value&quot;:&quot;World Countries&quot;}",
+          "{&quot;display&quot;:&quot;Americas&quot;,&quot;value&quot;:&quot;Americas&quot;}",
+          "{&quot;display&quot;:&quot;Europe&quot;,&quot;value&quot;:&quot;Europe&quot;}",
+          "{&quot;display&quot;:&quot;Asia&quot;,&quot;value&quot;:&quot;Asia&quot;}",
+          "{&quot;display&quot;:&quot;Africa&quot;,&quot;value&quot;:&quot;Africa&quot;}"
+        ]
+      },
+      "lens_3": {
+        "datasets": [
+          {
+            "id": "0Fb7F0000008YQFSA2",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000008YQFSA2"
+          }
+        ],
+        "isFacet": true,
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;values&quot;:[&quot;Close_Date&quot;,&quot;Opportunity_Name&quot;,&quot;Opportunity_Owner&quot;,&quot;Account_Name&quot;,&quot;Stage&quot;,&quot;Amount&quot;,&quot;Billing_Country&quot;,&quot;Industry&quot;,&quot;Closed&quot;],&quot;filters&quot;:[[&quot;Won&quot;,[&quot;true&quot;],&quot;in&quot;]]}",
+          "version": -1
+        },
+        "type": "grain",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "valuestable"
+        }
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#091A3E",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "table_3": {
+        "parameters": {
+          "borderColor": "#e0e5ee",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": true,
+          "header": {
+            "backgroundColor": "#f4f6f9",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "innerMajorBorderColor": "#a8b7c7",
+          "innerMinorBorderColor": "#e0e5ee",
+          "maxColumnWidth": 300,
+          "minColumnWidth": 40,
+          "mode": "variable",
+          "numberOfLines": 1,
+          "showRowIndexColumn": true,
+          "step": "lens_3",
+          "totals": true,
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "pillbox_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "step": "static_1"
+        },
+        "type": "pillbox"
+      },
+      "text_1": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "Regional Sales",
+          "textAlignment": "left",
+          "textColor": "#44A2F5"
+        },
+        "type": "text"
+      },
+      "container_5": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "documentId": "",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_2": {
+        "parameters": {
+          "fontSize": 18,
+          "text": "Sales",
+          "textAlignment": "left",
+          "textColor": "#7D98B3"
+        },
+        "type": "text"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "DTC_Sales_SAMPLE"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 14,
+          "includeState": false,
+          "text": "&lt; Back to  DTC Sales",
+          "textAlignment": "center",
+          "textColor": "#7D98B3"
+        },
+        "type": "link"
+      },
+      "text_2_mobile": {
+        "parameters": {
+          "fontSize": 18,
+          "text": "Sales",
+          "textAlignment": "center",
+          "textColor": "#7D98B3"
+        },
+        "type": "text"
+      },
+      "chart_1": {
+        "parameters": {
+          "autoFitMode": "keepLabels",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "wrap",
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "Total Sales ($)",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "theme": "dark",
+          "step": "Account_BillingCount_2",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "chart_3": {
+        "parameters": {
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "bottom-center",
+            "inside": false
+          },
+          "autoZoom": false,
+          "highColor": "#1674D9",
+          "lowColor": "#C5DBF7",
+          "projectionType": "Mercator",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "choropleth",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "theme": "dark",
+          "step": "Account_BillingCount_2",
+          "map": "{{cell(static_1.selection, 0, &quot;value&quot;).asObject()}}"
+        },
+        "type": "chart"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000002482WAA"
+}
