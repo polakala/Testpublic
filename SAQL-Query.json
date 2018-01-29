@@ -18,7 +18,7 @@
   },
   "id": "0FK7F0000006XlgWAE",
   "label": "SAQL-Query",
-  "lastAccessedDate": "2018-01-25T19:21:06.000Z",
+  "lastAccessedDate": "2018-01-29T10:06:47.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -862,7 +862,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 14,
-          "text": "1)q = load &quot;Wave_Sample_Opportunities&quot;;\nq1 = load &quot;DTC_Opportunity_SAMPLE&quot;;\nq = group q by &#39;Account_Name&#39;,q1 by &#39;Account_Name&#39;;\nq = foreach q generate q.&#39;Account_Name&#39; as &#39;Account_Name&#39;,  sum(q1.&#39;Amount&#39;) as &#39;Dateset2_Amount &#39;,(sum(q1.&#39;Amount&#39;)+sum(q.&#39;Amount&#39;))/2 as &#39;avg&#39;,sum(q.&#39;Amount&#39;) as &#39;Dateset1_Amount&#39;;\nq = order q by &#39;Account_Name&#39; asc;\nq = limit q 2000;\n",
+          "text": "1)q = load \"${App.EdgeMarts.Wave_Sample_Opportunities.Alias}\";\nq1 = load \"${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}\";\nq = group q by 'Account_Name',q1 by 'Account_Name';\nq = foreach q generate q.'Account_Name' as 'Account_Name',  sum(q1.'Amount') as 'Dateset2_Amount ',(sum(q1.'Amount')+sum(q.'Amount'))/2 as 'avg',sum(q.'Amount') as 'Dateset1_Amount';\nq = order q by 'Account_Name' asc;\nq = limit q 2000;\n",
           "textAlignment": "left",
           "textColor": "#091A3E"
         },
@@ -919,7 +919,7 @@
             "customizeTooltip": false,
             "dimensions": ""
           },
-          "visualizationType": "{{coalesce(cell(static_1.selection, 0, &quot;visualizationType&quot;), cell(static_1.result, 0, &quot;visualizationType&quot;)).asString()}}",
+          "visualizationType": "{{coalesce(cell(static_1.selection, 0, \"visualizationType\"), cell(static_1.result, 0, \"visualizationType\")).asString()}}",
           "dashLine": {
             "measures": "",
             "showDashLine": false
@@ -992,7 +992,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{cell(dataset_1.selection, 0, &quot;value&quot;).asString()}}",
+          "text": "{{cell(dataset_1.selection, 0, \"value\").asString()}}",
           "textAlignment": "left",
           "textColor": "#091A3E"
         },
