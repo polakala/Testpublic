@@ -9,16 +9,21 @@
   "createdDate": "2018-01-23T10:38:40.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}"
+      "id": "0Fb7F000000PEymSAG",
+      "label": "DTC Opportunity",
+      "name": "DTC_Opportunity_SAMPLE",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000PEymSAG"
     }
   ],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "0057F000000r9JdQAI",
+    "label": "My Private App"
   },
   "id": "0FK7F0000006XlgWAE",
   "label": "SAQL-Query",
-  "lastAccessedDate": "2018-01-29T21:38:33.000Z",
+  "lastAccessedDate": "2018-01-31T05:36:02.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -445,40 +450,25 @@
         "strings": [],
         "type": "staticflex",
         "values": [
-          {
-            "display": "Sum of Datasets",
-            "value": "q = load \"${App.EdgeMarts.Wave_Sample_Opportunities.Alias}\";\nq = filter q by date('Created_Date_Year', 'Created_Date_Month', 'Created_Date_Day') in [dateRange([2015,11,10], [2016,2,19])];\nq1 = load \"${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}\";\nq = group q by 'Account_Name',q1 by 'Account_Name';\nq = foreach q generate q.'Account_Name' as 'Account_Name',  sum(q1.'Amount') as 'Dateset2_Amount ',(sum(q1.'Amount')+sum(q.'Amount'))/2 as 'avg',sum(q.'Amount') as 'Dateset1_Amount';\nq = order q by 'Account_Name' asc;\nq = limit q 2000;\n"
-          },
-          {
-            "display": "One Dataset",
-            "value": "q = load \"${App.EdgeMarts.Wave_Sample_Opportunities.Alias}\";\n\nq = group q by 'Account_Name';\nq = foreach q generate q.'Account_Name' as 'Account_Name', sum(q.'Amount') as 'Dateset1_Amount';\nq = order q by 'Account_Name' asc;\nq = limit q 2000;\n"
-          },
-          {
-            "display": "Two Dataset",
-            "value": "\nq = load \"${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}\";\nq = group q by 'Account_Name';\nq = foreach q generate q.'Account_Name' as 'Account_Name', sum(q.'Amount') as 'Dateset2_Amount';\nq = order q by 'Account_Name' asc;\nq = limit q 2000;\n"
-          }
+          "{&quot;display&quot;:&quot;Sum of Datasets&quot;,&quot;value&quot;:&quot;q = load &#92;&quot;Wave_Sample_Opportunities&#92;&quot;;&#92;nq = filter q by date(&#39;Created_Date_Year&#39;, &#39;Created_Date_Month&#39;, &#39;Created_Date_Day&#39;) in [dateRange([2015,11,10], [2016,2,19])];&#92;nq1 = load &#92;&quot;DTC_Opportunity_SAMPLE&#92;&quot;;&#92;nq = group q by &#39;Account_Name&#39;,q1 by &#39;Account_Name&#39;;&#92;nq = foreach q generate q.&#39;Account_Name&#39; as &#39;Account_Name&#39;,  sum(q1.&#39;Amount&#39;) as &#39;Dateset2_Amount &#39;,(sum(q1.&#39;Amount&#39;)+sum(q.&#39;Amount&#39;))/2 as &#39;avg&#39;,sum(q.&#39;Amount&#39;) as &#39;Dateset1_Amount&#39;;&#92;nq = order q by &#39;Account_Name&#39; asc;&#92;nq = limit q 2000;&#92;n&quot;}",
+          "{&quot;display&quot;:&quot;One Dataset&quot;,&quot;value&quot;:&quot;q = load &#92;&quot;Wave_Sample_Opportunities&#92;&quot;;&#92;n&#92;nq = group q by &#39;Account_Name&#39;;&#92;nq = foreach q generate q.&#39;Account_Name&#39; as &#39;Account_Name&#39;, sum(q.&#39;Amount&#39;) as &#39;Dateset1_Amount&#39;;&#92;nq = order q by &#39;Account_Name&#39; asc;&#92;nq = limit q 2000;&#92;n&quot;}",
+          "{&quot;display&quot;:&quot;Two Dataset&quot;,&quot;value&quot;:&quot;&#92;nq = load &#92;&quot;DTC_Opportunity_SAMPLE&#92;&quot;;&#92;nq = group q by &#39;Account_Name&#39;;&#92;nq = foreach q generate q.&#39;Account_Name&#39; as &#39;Account_Name&#39;, sum(q.&#39;Amount&#39;) as &#39;Dateset2_Amount&#39;;&#92;nq = order q by &#39;Account_Name&#39; asc;&#92;nq = limit q 2000;&#92;n&quot;}"
         ]
       },
       "Account_Name_1": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}"
+            "id": "0Fb7F000000PEymSAG",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000PEymSAG"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": {
-            "measures": [
-              [
-                "count",
-                "*"
-              ]
-            ],
-            "groups": [
-              "Account_Name"
-            ]
-          },
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Account_Name&quot;]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -594,18 +584,9 @@
         "strings": [],
         "type": "staticflex",
         "values": [
-          {
-            "display": "Bar",
-            "visualizationType": "hbar"
-          },
-          {
-            "display": "column",
-            "visualizationType": "vbar"
-          },
-          {
-            "display": "Line",
-            "visualizationType": "line"
-          }
+          "{&quot;display&quot;:&quot;Bar&quot;,&quot;visualizationType&quot;:&quot;hbar&quot;}",
+          "{&quot;display&quot;:&quot;column&quot;,&quot;visualizationType&quot;:&quot;vbar&quot;}",
+          "{&quot;display&quot;:&quot;Line&quot;,&quot;visualizationType&quot;:&quot;line&quot;}"
         ]
       },
       "Binding_Value_1": {
@@ -621,10 +602,7 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          {
-            "display": "1",
-            "value": "{{coalesce(cell(static_1.selection, 0, &#92;&#92;\"visualizationType&#92;&#92;\"), cell(static_1.result, 0, &#92;&#92;\"visualizationType&#92;&#92;\")).asString()}}"
-          }
+          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{coalesce(cell(static_1.selection, 0, &#92;&#92;&#92;&quot;visualizationType&#92;&#92;&#92;&quot;), cell(static_1.result, 0, &#92;&#92;&#92;&quot;visualizationType&#92;&#92;&#92;&quot;)).asString()}}&quot;}"
         ]
       },
       "Account_Name_Account_1": {
@@ -632,7 +610,7 @@
         "groups": [],
         "label": "Account_Name_Account_1",
         "numbers": [],
-        "query": "{{cell(dataset_1.selection, 0, \\\"value\\\").asString()}}",
+        "query": "{{cell(dataset_1.selection, 0, &quot;value&quot;).asString()}}",
         "receiveFacet": true,
         "selectMode": "singlerequired",
         "strings": [],
@@ -862,7 +840,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 14,
-          "text": "1)q = load \"${App.EdgeMarts.Wave_Sample_Opportunities.Alias}\";\nq1 = load \"${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}\";\nq = group q by 'Account_Name',q1 by 'Account_Name';\nq = foreach q generate q.'Account_Name' as 'Account_Name',  sum(q1.'Amount') as 'Dateset2_Amount ',(sum(q1.'Amount')+sum(q.'Amount'))/2 as 'avg',sum(q.'Amount') as 'Dateset1_Amount';\nq = order q by 'Account_Name' asc;\nq = limit q 2000;\n",
+          "text": "1)q = load &quot;Wave_Sample_Opportunities&quot;;\nq1 = load &quot;DTC_Opportunity_SAMPLE&quot;;\nq = group q by &#39;Account_Name&#39;,q1 by &#39;Account_Name&#39;;\nq = foreach q generate q.&#39;Account_Name&#39; as &#39;Account_Name&#39;,  sum(q1.&#39;Amount&#39;) as &#39;Dateset2_Amount &#39;,(sum(q1.&#39;Amount&#39;)+sum(q.&#39;Amount&#39;))/2 as &#39;avg&#39;,sum(q.&#39;Amount&#39;) as &#39;Dateset1_Amount&#39;;\nq = order q by &#39;Account_Name&#39; asc;\nq = limit q 2000;\n",
           "textAlignment": "left",
           "textColor": "#091A3E"
         },
@@ -919,7 +897,7 @@
             "customizeTooltip": false,
             "dimensions": ""
           },
-          "visualizationType": "{{coalesce(cell(static_1.selection, 0, \"visualizationType\"), cell(static_1.result, 0, \"visualizationType\")).asString()}}",
+          "visualizationType": "{{coalesce(cell(static_1.selection, 0, &quot;visualizationType&quot;), cell(static_1.result, 0, &quot;visualizationType&quot;)).asString()}}",
           "dashLine": {
             "measures": "",
             "showDashLine": false
@@ -992,7 +970,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{cell(dataset_1.selection, 0, \"value\").asString()}}",
+          "text": "{{cell(dataset_1.selection, 0, &quot;value&quot;).asString()}}",
           "textAlignment": "left",
           "textColor": "#091A3E"
         },
