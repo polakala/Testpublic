@@ -9,39 +9,31 @@
   "createdDate": "2018-02-06T08:40:06.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000bshuSAA",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities3",
-      "namespace": "SAQL",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000bshuSAA"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities3.Alias}"
     }
   ],
   "files": [
     {
       "contentType": "image/png",
-      "fileLength": 22193,
+      "fileLength": 13812,
       "fileName": "assetPreviewThumb",
       "id": "0FJ7F000000bqAjWAI",
-      "lastModifiedDate": "2018-02-06T10:36:34.000Z",
+      "lastModifiedDate": "2018-02-07T22:53:04.000Z",
       "url": "/services/data/v41.0/wave/lenses/0FK7F000000dWmRWAU/files/0FJ7F000000bqAjWAI"
     }
   ],
   "folder": {
-    "id": "00l7F000000VGuVQAW",
-    "label": "New Simhachalam Learning App",
-    "name": "BackupLearning_app",
-    "namespace": "SAQL",
-    "url": "/services/data/v41.0/wave/folders/00l7F000000VGuVQAW"
+    "id": "${App.Folder.Id}"
   },
   "id": "0FK7F000000dWmRWAU",
   "label": "B_SAQL - Computing Standard Deviations",
-  "lastAccessedDate": "2018-02-06T18:03:09.000Z",
+  "lastAccessedDate": "2018-02-28T12:26:18.000Z",
   "lastModifiedBy": {
     "id": "0057F000002LiA0QAK",
     "name": "salesforce conferrasoft",
     "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-02-06T10:36:29.000Z",
+  "lastModifiedDate": "2018-02-07T22:53:01.000Z",
   "mobileDisabled": false,
   "name": "B_SAQL_Computing_Standard_Deviations",
   "namespace": "SAQL",
@@ -624,16 +616,12 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000bshuSAA",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities3",
-            "namespace": "SAQL",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000bshuSAA"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities3.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Product_Name&quot;],&quot;order&quot;:[[-1,{&quot;ascending&quot;:&quot;{{cell(Group_1.selection, 0, &#92;&quot;value&#92;&quot;).asObject()}}&quot;}]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Name\"],\"order\":[[-1,{\"ascending\":\"{{cell(Group_1.selection, 0, \\\"value\\\").asObject()}}\"}]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -742,7 +730,7 @@
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "q = load &quot;SAQL__Wave_Sample_Opportunities3&quot;;\nq = group q by &#39;Account_Name&#39;;\nq = foreach q generate &#39;Account_Name&#39; as &#39;Account_Name&#39;, count() as &#39;count&#39;;\nq = order q by &#39;Account_Name&#39; asc;\nq = limit q 2000;",
+        "query": "q = load \"SAQL__Wave_Sample_Opportunities3\";\nq = group q by 'Account_Name';\nq = foreach q generate 'Account_Name' as 'Account_Name', count() as 'count';\nq = order q by 'Account_Name' asc;\nq = limit q 2000;",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -850,7 +838,7 @@
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "q = load &quot;SAQL__Wave_Sample_Opportunities3&quot;;\nq = group q by &#39;Billing_Country&#39;;\n\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, sum(&#39;Amount&#39;) as &#39;Revenue&#39;,\nsum(sum(&#39;Amount&#39;)) over ([..] partition by all ) as &#39;Trevenue&#39;,\nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Counter&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;,power(abs(max(&#39;Revenue&#39;) - (max(&#39;Trevenue&#39;) /max(max(&#39;Counter&#39;)) over\n([..] partition by all))),2)/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;sqr_diff_Rev&#39;,max(&#39;Trevenue&#39;)\n/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;avg_rev&#39;,max(&#39;Revenue&#39;) as &#39;Cntryrev&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, max(&#39;Cntryrev&#39;) as &#39;Cntryrev&#39;,\nround(max(&#39;avg_rev&#39;)) as &#39;avg_rev&#39;,\nround(max(&#39;avg_rev&#39;) + sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as\n&#39;plus_1_std_dev&#39;,round(max(&#39;avg_rev&#39;) - sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as &#39;minus_1_std_dev&#39;;",
+        "query": "q = load \"SAQL__Wave_Sample_Opportunities3\";\nq = group q by 'Billing_Country';\nq = foreach q generate 'Billing_Country' as 'Billing_Country', sum('Amount') as 'Revenue',\nsum(sum('Amount')) over ([..] partition by all ) as 'Trevenue',\nrank() over ([..] partition by all order by sum('Amount')) as 'Counter';\nq = group q by 'Billing_Country';\nq = foreach q generate 'Billing_Country' as 'Billing_Country',power(abs(max('Revenue') - (max('Trevenue') /max(max('Counter')) over\n([..] partition by all))),2)/max(max('Counter')) over ([..] partition by all) as 'sqr_diff_Rev',max('Trevenue')\n/max(max('Counter')) over ([..] partition by all) as 'avg_rev',max('Revenue') as 'Cntryrev';\nq = group q by 'Billing_Country';\nq = foreach q generate 'Billing_Country' as 'Billing_Country', max('Cntryrev') as 'Cntryrev',\nround(max('avg_rev')) as 'avg_rev',\nround(max('avg_rev') + sqrt(sum(sum('sqr_diff_Rev')) over ([..] partition by all))) as\n'plus_1_std_dev',round(max('avg_rev') - sqrt(sum(sum('sqr_diff_Rev')) over ([..] partition by all))) as 'minus_1_std_dev';",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -939,7 +927,7 @@
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "q = load &quot;SAQL__Wave_Sample_Opportunities3&quot;;\nq = group q by &#39;Billing_Country&#39;;\n\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, sum(&#39;Amount&#39;) as &#39;Revenue&#39;,\nsum(sum(&#39;Amount&#39;)) over ([..] partition by all ) as &#39;Trevenue&#39;,\nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Counter&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;,power(abs(max(&#39;Revenue&#39;) - (max(&#39;Trevenue&#39;) /max(max(&#39;Counter&#39;)) over\n([..] partition by all))),2)/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;sqr_diff_Rev&#39;,max(&#39;Trevenue&#39;)\n/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;avg_rev&#39;,max(&#39;Revenue&#39;) as &#39;Cntryrev&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, max(&#39;Cntryrev&#39;) as &#39;Cntryrev&#39;,\nround(max(&#39;avg_rev&#39;)) as &#39;avg_rev&#39;,\nround(max(&#39;avg_rev&#39;) + sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as\n&#39;plus_1_std_dev&#39;,round(max(&#39;avg_rev&#39;) - sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as &#39;minus_1_std_dev&#39;;",
+        "query": "q = load \"SAQL__Wave_Sample_Opportunities3\";\nq = group q by 'Billing_Country';\nq = foreach q generate 'Billing_Country' as 'Billing_Country', sum('Amount') as 'Revenue',\nsum(sum('Amount')) over ([..] partition by all ) as 'Trevenue',\nrank() over ([..] partition by all order by sum('Amount')) as 'Counter';\nq = group q by 'Billing_Country';\nq = foreach q generate 'Billing_Country' as 'Billing_Country',power(abs(max('Revenue') - (max('Trevenue') /max(max('Counter')) over\n([..] partition by all))),2)/max(max('Counter')) over ([..] partition by all) as 'sqr_diff_Rev',max('Trevenue')\n/max(max('Counter')) over ([..] partition by all) as 'avg_rev',max('Revenue') as 'Cntryrev';\nq = group q by 'Billing_Country';\nq = foreach q generate 'Billing_Country' as 'Billing_Country', max('Cntryrev') as 'Cntryrev',\nround(max('avg_rev')) as 'avg_rev',\nround(max('avg_rev') + sqrt(sum(sum('sqr_diff_Rev')) over ([..] partition by all))) as\n'plus_1_std_dev',round(max('avg_rev') - sqrt(sum(sum('sqr_diff_Rev')) over ([..] partition by all))) as 'minus_1_std_dev';",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -1293,7 +1281,7 @@
           },
           "measureAxis1": {
             "sqrtScale": true,
-            "showTitle": true,
+            "showTitle": false,
             "showAxis": true,
             "title": "",
             "customDomain": {
@@ -1303,7 +1291,7 @@
           "theme": "wave",
           "step": "lens_1",
           "dimensionAxis": {
-            "showTitle": true,
+            "showTitle": false,
             "customSize": "auto",
             "showAxis": true,
             "title": "",
@@ -1322,7 +1310,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = load &quot;SAQL__Wave_Sample_Opportunities3&quot;;\nq = group q by &#39;Billing_Country&#39;;\n\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, sum(&#39;Amount&#39;) as &#39;Revenue&#39;,\nsum(sum(&#39;Amount&#39;)) over ([..] partition by all ) as &#39;Trevenue&#39;,\nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Counter&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;,power(abs(max(&#39;Revenue&#39;) - (max(&#39;Trevenue&#39;) /max(max(&#39;Counter&#39;)) over\n([..] partition by all))),2)/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;sqr_diff_Rev&#39;,max(&#39;Trevenue&#39;)\n/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;avg_rev&#39;,max(&#39;Revenue&#39;) as &#39;Cntryrev&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, max(&#39;Cntryrev&#39;) as &#39;Cntryrev&#39;,\nround(max(&#39;avg_rev&#39;)) as &#39;avg_rev&#39;,\nround(max(&#39;avg_rev&#39;) + sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as\n&#39;plus_1_std_dev&#39;,round(max(&#39;avg_rev&#39;) - sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as &#39;minus_1_std_dev&#39;;qqq",
+          "text": "q = load \"${App.EdgeMarts.SAQL__Wave_Sample_Opportunities3.Alias}\";\nq = group q by 'Billing_Country';\nq = foreach q generate 'Billing_Country' as 'Billing_Country', sum('Amount') as 'Revenue',\nsum(sum('Amount')) over ([..] partition by all ) as 'Trevenue',\nrank() over ([..] partition by all order by sum('Amount')) as 'Counter';\nq = group q by 'Billing_Country';\nq = foreach q generate 'Billing_Country' as 'Billing_Country',power(abs(max('Revenue') - (max('Trevenue') /max(max('Counter')) over\n([..] partition by all))),2)/max(max('Counter')) over ([..] partition by all) as 'sqr_diff_Rev',max('Trevenue')\n/max(max('Counter')) over ([..] partition by all) as 'avg_rev',max('Revenue') as 'Cntryrev';\nq = group q by 'Billing_Country';\nq = foreach q generate 'Billing_Country' as 'Billing_Country', max('Cntryrev') as 'Cntryrev',\nround(max('avg_rev')) as 'avg_rev',\nround(max('avg_rev') + sqrt(sum(sum('sqr_diff_Rev')) over ([..] partition by all))) as\n'plus_1_std_dev',round(max('avg_rev') - sqrt(sum(sum('sqr_diff_Rev')) over ([..] partition by all))) as 'minus_1_std_dev';qqq",
           "textAlignment": "left",
           "textColor": "#091A3E"
         },
