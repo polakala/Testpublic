@@ -1,47 +1,39 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://ap5.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000dWldWAE&orgId=00D7F0000049VAF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KAaWAM&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000002LiA0QAK",
-    "name": "salesforce conferrasoft",
-    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000r9JdQAI",
+    "name": "prp pradeep",
+    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-02-06T08:12:50.000Z",
+  "createdDate": "2018-01-04T05:09:06.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000bshuSAA",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities3",
-      "namespace": "SAQL",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000bshuSAA"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
   "files": [],
   "folder": {
-    "id": "00l7F000000VGuVQAW",
-    "label": "New Simhachalam Learning App",
-    "name": "BackupLearning_app",
-    "namespace": "SAQL",
-    "url": "/services/data/v41.0/wave/folders/00l7F000000VGuVQAW"
+    "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F000000dWldWAE",
+  "id": "0FK7F0000006KAaWAM",
   "label": "Charts - Metrics",
-  "lastAccessedDate": "2018-02-06T17:33:53.000Z",
+  "lastAccessedDate": "2018-03-06T04:53:35.000Z",
   "lastModifiedBy": {
-    "id": "0057F000002LiA0QAK",
-    "name": "salesforce conferrasoft",
-    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000r9JdQAI",
+    "name": "prp pradeep",
+    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-02-06T08:12:56.000Z",
+  "lastModifiedDate": "2018-01-04T05:09:16.000Z",
   "mobileDisabled": false,
-  "name": "Charts_Metrics3",
-  "namespace": "SAQL",
+  "name": "Charts_Metrics",
+  "namespace": "puttupu",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-02-06T08:11:06.000Z",
+  "refreshDate": "2018-01-04T05:07:47.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -644,25 +636,21 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;Flat Gauge&quot;,&quot;value&quot;:&quot;flatgauge&quot;}",
-          "{&quot;display&quot;:&quot;Polar Gauge&quot;,&quot;value&quot;:&quot;polargauge&quot;}",
-          "{&quot;display&quot;:&quot;Ratings&quot;,&quot;value&quot;:&quot;rating&quot;}"
+          "{\"display\":\"Flat Gauge\",\"value\":\"flatgauge\"}",
+          "{\"display\":\"Polar Gauge\",\"value\":\"polargauge\"}",
+          "{\"display\":\"Ratings\",\"value\":\"rating\"}"
         ]
       },
       "Product_Family_1": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000bshuSAA",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities3",
-            "namespace": "SAQL",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000bshuSAA"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;,&quot;B&quot;,{&quot;display&quot;:&quot;Quota&quot;,&quot;format&quot;:&quot;percentage&quot;}]],&quot;columns&quot;:[{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;]}},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;],&quot;formula&quot;:&quot;(A / 400000000)*100&quot;},&quot;header&quot;:&quot;Quota&quot;}],&quot;groups&quot;:[&quot;Product_Family&quot;]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\",\"B\",{\"display\":\"Quota\",\"format\":\"percentage\"}]],\"columns\":[{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\"]}},{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\"],\"formula\":\"(A / 400000000)*100\"},\"header\":\"Quota\"}],\"groups\":[\"Product_Family\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -695,8 +683,8 @@
       "link_14": {
         "parameters": {
           "destinationLink": {
-            "name": "Charts_Location3",
-            "namespace": "SAQL"
+            "name": "Charts_Location",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -721,8 +709,8 @@
       "link_12": {
         "parameters": {
           "destinationLink": {
-            "name": "Charts_Composition3",
-            "namespace": "SAQL"
+            "name": "Charts_Composition",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -745,8 +733,8 @@
       "link_13": {
         "parameters": {
           "destinationLink": {
-            "name": "Charts_Distribution3",
-            "namespace": "SAQL"
+            "name": "Charts_Distribution",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -760,8 +748,8 @@
       "link_10": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Introduction3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Introduction",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 14,
@@ -784,8 +772,8 @@
       "link_11": {
         "parameters": {
           "destinationLink": {
-            "name": "Charts_Relationship3",
-            "namespace": "SAQL"
+            "name": "Charts_Relationship",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -829,8 +817,8 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng4",
-            "namespace": "SAQL"
+            "name": "headerdetailpng1",
+            "namespace": "puttupu"
           }
         },
         "type": "container"
@@ -841,8 +829,8 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterjpg5",
-            "namespace": "SAQL"
+            "name": "bgfooterjpg1",
+            "namespace": "puttupu"
           }
         },
         "type": "container"
@@ -858,7 +846,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
-          "text": "Metric charts show how you&#39;re doing at a glance. CSAT? Quota? Customer ratings? Perfect use cases.\n\nChoose between several types of metrics charts: Gauge, Polar Gauge, Flat Gauge, and Rating.\n\nThis example shows how sales are doing against quota for different product families. The flat gauge has an added target line to further specify a goal.",
+          "text": "Metric charts show how you're doing at a glance. CSAT? Quota? Customer ratings? Perfect use cases.\n\nChoose between several types of metrics charts: Gauge, Polar Gauge, Flat Gauge, and Rating.\n\nThis example shows how sales are doing against quota for different product families. The flat gauge has an added target line to further specify a goal.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -910,7 +898,7 @@
       "text_7": {
         "parameters": {
           "fontSize": 14,
-          "text": "For metric charts, you define how the value is measured by setting the breakpoints and band colors. Breakpoints are the thresholds that define the ranges for each band. If your value falls within that band, it shows up in the band color you choose.\n\nSay your quota is $1M. Set the breakpoints as High = $1M and Max = $1.2M to leave room for your team to blow past it. Set the Medium band color to some boring old green, then pick a crazy fuchsia for the High band so your charts pop when your team beats quota.\n\nFor ratings, pick the icon and number to show. Five stars? 10 hearts? 14 clouds? It&#39;s up to you.\n\nWant to add a grouping? Set the Show as Trellis option, then choose the layout type that best fits your data.",
+          "text": "For metric charts, you define how the value is measured by setting the breakpoints and band colors. Breakpoints are the thresholds that define the ranges for each band. If your value falls within that band, it shows up in the band color you choose.\n\nSay your quota is $1M. Set the breakpoints as High = $1M and Max = $1.2M to leave room for your team to blow past it. Set the Medium band color to some boring old green, then pick a crazy fuchsia for the High band so your charts pop when your team beats quota.\n\nFor ratings, pick the icon and number to show. Five stars? 10 hearts? 14 clouds? It's up to you.\n\nWant to add a grouping? Set the Show as Trellis option, then choose the layout type that best fits your data.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -946,7 +934,7 @@
             "customizeTooltip": false,
             "dimensions": ""
           },
-          "visualizationType": "{{cell(static_1.selection, 0, &quot;value&quot;).asObject()}}",
+          "visualizationType": "{{cell(static_1.selection, 0, \"value\").asObject()}}",
           "exploreLink": true,
           "medium": 33,
           "title": {
@@ -1068,8 +1056,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng4",
-            "namespace": "SAQL"
+            "name": "iconintroductionpng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1080,8 +1068,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconcomparepng4",
-            "namespace": "SAQL"
+            "name": "iconcomparepng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1092,8 +1080,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlocationpng4",
-            "namespace": "SAQL"
+            "name": "iconlocationpng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1104,8 +1092,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondistributionpng4",
-            "namespace": "SAQL"
+            "name": "icondistributionpng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1125,8 +1113,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlearnmorepng4",
-            "namespace": "SAQL"
+            "name": "iconlearnmorepng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1137,8 +1125,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmetricspng8",
-            "namespace": "SAQL"
+            "name": "iconmetricspng2",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1146,8 +1134,8 @@
       "link_3": {
         "parameters": {
           "destinationLink": {
-            "name": "Charts_Comparison3",
-            "namespace": "SAQL"
+            "name": "Charts_Comparison",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1161,8 +1149,8 @@
       "link_1": {
         "parameters": {
           "destinationLink": {
-            "name": "Charts_Trending3",
-            "namespace": "SAQL"
+            "name": "Charts_Trending",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1176,8 +1164,8 @@
       "link_2": {
         "parameters": {
           "destinationLink": {
-            "name": "Charts_Introduction3",
-            "namespace": "SAQL"
+            "name": "Charts_Introduction",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1191,8 +1179,8 @@
       "link_8": {
         "parameters": {
           "destinationLink": {
-            "name": "Adventure_Home3",
-            "namespace": "SAQL"
+            "name": "Adventure_Home",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1217,8 +1205,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontrendingpng8",
-            "namespace": "SAQL"
+            "name": "icontrendingpng2",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1229,8 +1217,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconcompositionpng8",
-            "namespace": "SAQL"
+            "name": "iconcompositionpng2",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1241,8 +1229,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconrelationshippng8",
-            "namespace": "SAQL"
+            "name": "iconrelationshippng2",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1250,5 +1238,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000dWldWAE"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KAaWAM"
 }

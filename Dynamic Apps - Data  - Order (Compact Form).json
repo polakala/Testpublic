@@ -1,47 +1,48 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://ap5.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000dWllWAE&orgId=00D7F0000049VAF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KAiWAM&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000002LiA0QAK",
-    "name": "salesforce conferrasoft",
-    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000r9JdQAI",
+    "name": "prp pradeep",
+    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-02-06T08:12:53.000Z",
+  "createdDate": "2018-01-04T05:09:11.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000bshuSAA",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities3",
-      "namespace": "SAQL",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000bshuSAA"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
-  "files": [],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 14167,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F0000008VyZWAU",
+      "lastModifiedDate": "2018-01-10T09:09:07.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F0000006KAiWAM/files/0FJ7F0000008VyZWAU"
+    }
+  ],
   "folder": {
-    "id": "00l7F000000VGuVQAW",
-    "label": "New Simhachalam Learning App",
-    "name": "BackupLearning_app",
-    "namespace": "SAQL",
-    "url": "/services/data/v41.0/wave/folders/00l7F000000VGuVQAW"
+    "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F000000dWllWAE",
+  "id": "0FK7F0000006KAiWAM",
   "label": "Dynamic Apps - Data  - Order (Compact Form)",
-  "lastAccessedDate": "2018-02-06T17:33:55.000Z",
+  "lastAccessedDate": "2018-03-06T04:53:34.000Z",
   "lastModifiedBy": {
-    "id": "0057F000002LiA0QAK",
-    "name": "salesforce conferrasoft",
-    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000r9JdQAI",
+    "name": "prp pradeep",
+    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-02-06T08:12:58.000Z",
+  "lastModifiedDate": "2018-01-04T05:09:18.000Z",
   "mobileDisabled": false,
-  "name": "Dynamic_Apps_Data_Order_Compact_Form3",
-  "namespace": "SAQL",
+  "name": "Dynamic_Apps_Data_Order_Compact_Form",
+  "namespace": "puttupu",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-02-06T08:11:06.000Z",
+  "refreshDate": "2018-01-04T05:07:47.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -724,16 +725,12 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000bshuSAA",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities3",
-            "namespace": "SAQL",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000bshuSAA"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;],&quot;order&quot;:&quot;{{ cell(Order_Toggle_1.selection, 0, &#92;&quot;order&#92;&quot;).asObject() }}&quot;}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\"],\"order\":\"{{ cell(Order_Toggle_1.selection, 0, \\\"order\\\").asObject() }}\"}",
           "version": -1
         },
         "receiveFacet": true,
@@ -836,7 +833,7 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{ cell(Order_Toggle_1.selection, 0, &#92;&#92;&#92;&quot;order&#92;&#92;&#92;&quot;).asObject() }}&quot;}"
+          "{\"display\":\"1\",\"value\":\"{{ cell(Order_Toggle_1.selection, 0, \\\\\\\"order\\\\\\\").asObject() }}\"}"
         ]
       },
       "Order_Toggle_1": {
@@ -853,9 +850,9 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;Top&quot;,&quot;order&quot;:[[&quot;sum_Amount&quot;,{&quot;ascending&quot;:false}]]}",
-          "{&quot;display&quot;:&quot;Bottom&quot;,&quot;order&quot;:[[&quot;sum_Amount&quot;,{&quot;ascending&quot;:true}]]}",
-          "{&quot;display&quot;:&quot;Alphabetical&quot;,&quot;order&quot;:[]}"
+          "{\"display\":\"Top\",\"order\":[[\"sum_Amount\",{\"ascending\":false}]]}",
+          "{\"display\":\"Bottom\",\"order\":[[\"sum_Amount\",{\"ascending\":true}]]}",
+          "{\"display\":\"Alphabetical\",\"order\":[]}"
         ]
       }
     },
@@ -873,8 +870,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontablepng4",
-            "namespace": "SAQL"
+            "name": "icontablepng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -882,7 +879,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -903,8 +900,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconorderpng4",
-            "namespace": "SAQL"
+            "name": "iconorderpng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -912,8 +909,8 @@
       "link_15": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Design_Conditional_Formatting3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Design_Conditional_Formatting",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -930,8 +927,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng4",
-            "namespace": "SAQL"
+            "name": "iconintroductionpng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -939,8 +936,8 @@
       "link_12": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Data_Measure_Compact_Form3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Data_Measure_Compact_Form",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -963,8 +960,8 @@
       "link_13": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Data_Grouping_Compact_Form3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Data_Grouping_Compact_Form",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -989,8 +986,8 @@
       "link_11": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Data_Date_Filter3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Data_Date_Filter",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1025,8 +1022,8 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng4",
-            "namespace": "SAQL"
+            "name": "headerdetailpng1",
+            "namespace": "puttupu"
           }
         },
         "type": "container"
@@ -1037,8 +1034,8 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterdesertjpg4",
-            "namespace": "SAQL"
+            "name": "bgfooterdesertjpg1",
+            "namespace": "puttupu"
           }
         },
         "type": "container"
@@ -1079,7 +1076,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget&#39;s data or design to the selection or results of another",
+          "text": "Tie a widget's data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1223,7 +1220,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) Create a toggle widget (&quot;pillbox_1&quot;) with a step (&quot;Order_Toggle_1&quot;) that specifies different orders.\n\n2) Create a bar chart (&quot;chart_1&quot;) with a step (&quot;Dynamic_Query&quot;) in compact form that groups the total amount by product family and sorts the results based on the selected order in the toggle widget.\n\n3) To dynamically set the order in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the &quot;order&quot; property in the &quot;Dynamic_Query&quot; step.\n\n&quot;order&quot;: &quot;{{cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "1) Create a toggle widget (\"pillbox_1\") with a step (\"Order_Toggle_1\") that specifies different orders.\n\n2) Create a bar chart (\"chart_1\") with a step (\"Dynamic_Query\") in compact form that groups the total amount by product family and sorts the results based on the selected order in the toggle widget.\n\n3) To dynamically set the order in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the \"order\" property in the \"Dynamic_Query\" step.\n\n\"order\": \"{{cell( Binding_Value_1.result, 0, \"value\").asObject()}}\"\n\n4) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1235,8 +1232,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconreferencelinepng8",
-            "namespace": "SAQL"
+            "name": "iconreferencelinepng2",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1247,8 +1244,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmappng4",
-            "namespace": "SAQL"
+            "name": "iconmappng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1259,8 +1256,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmeasurepng4",
-            "namespace": "SAQL"
+            "name": "iconmeasurepng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1271,8 +1268,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icongrouppng4",
-            "namespace": "SAQL"
+            "name": "icongrouppng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1292,8 +1289,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlearnmorepng4",
-            "namespace": "SAQL"
+            "name": "iconlearnmorepng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1304,8 +1301,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconconditionalpng4",
-            "namespace": "SAQL"
+            "name": "iconconditionalpng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1313,8 +1310,8 @@
       "link_3": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Design_Reference_Line3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Design_Reference_Line",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1328,8 +1325,8 @@
       "link_4": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Design_Values_Table3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Design_Values_Table",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1343,8 +1340,8 @@
       "link_1": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Design_Chart_Type3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Design_Chart_Type",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1367,7 +1364,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell(Order_Toggle_1.selection, 0, &quot;order&quot;).asString() }}",
+          "text": "{{ cell(Order_Toggle_1.selection, 0, \"order\").asString() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1376,7 +1373,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) cell(Order_Toggle_1.selection, 0, &#92;&quot;order&#92;&quot;) returns the selected order from the &quot;Order_Toggle_1&quot; step. Gets the value from cell (first row, &quot;order&quot; column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
+          "text": "1) cell(Order_Toggle_1.selection, 0, &#92;\"order&#92;\") returns the selected order from the \"Order_Toggle_1\" step. Gets the value from cell (first row, \"order\" column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1394,8 +1391,8 @@
       "link_9": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Data_Limit3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Data_Limit",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1409,8 +1406,8 @@
       "link_8": {
         "parameters": {
           "destinationLink": {
-            "name": "Adventure_Home3",
-            "namespace": "SAQL"
+            "name": "Adventure_Home",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1433,8 +1430,8 @@
       "link_5": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Introduction3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Introduction",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1448,8 +1445,8 @@
       "link_6": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Data_Basic_Filter3",
-            "namespace": "SAQL"
+            "name": "Dynamic_Apps_Data_Basic_Filter",
+            "namespace": "puttupu"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1466,8 +1463,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconfilterpng8",
-            "namespace": "SAQL"
+            "name": "iconfilterpng2",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1478,8 +1475,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlimitpng4",
-            "namespace": "SAQL"
+            "name": "iconlimitpng1",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1490,8 +1487,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondatepng8",
-            "namespace": "SAQL"
+            "name": "icondatepng2",
+            "namespace": "puttupu"
           }
         },
         "type": "image"
@@ -1499,5 +1496,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000dWllWAE"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KAiWAM"
 }
