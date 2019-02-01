@@ -1,0 +1,157 @@
+{
+  "notificationLevel": "",
+  "workflowDefinition": {
+    "reg_EinsteinBotsInsights": {
+      "action": "sfdcRegister",
+      "parameters": {
+        "name": "Einstein Bots",
+        "alias": "Einstein_Bots",
+        "source": "BotAnalyticsAndTranscripts"
+      }
+    },
+    "BotAnalyticsAndTranscripts": {
+      "action": "augment",
+      "parameters": {
+        "right_key": [
+          "Id"
+        ],
+        "left": "BotAnalytics",
+        "left_key": [
+          "LiveChatTranscriptId"
+        ],
+        "right_select": [
+          "OperatorMessageCount",
+          "Id",
+          "VisitorMessageCount"
+        ],
+        "right": "LiveChatTranscript",
+        "relationship": "LiveChatTranscriptId"
+      }
+    },
+    "BotAnalytics": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "fields": [
+          {
+            "name": "AbandonedDialogsCount"
+          },
+          {
+            "name": "BotDuration"
+          },
+          {
+            "name": "BotMessageCount"
+          },
+          {
+            "name": "BotName"
+          },
+          {
+            "name": "BotVersionNumber"
+          },
+          {
+            "name": "ButtonClicksCount"
+          },
+          {
+            "name": "CreatedDate"
+          },
+          {
+            "name": "DroppedDialogId"
+          },
+          {
+            "name": "DroppedDialogName"
+          },
+          {
+            "name": "DroppedElementId"
+          },
+          {
+            "name": "EscalationType"
+          },
+          {
+            "name": "FirstBotInteractionTime"
+          },
+          {
+            "name": "LastBotInteractionTime"
+          },
+          {
+            "name": "MenuClicksCount"
+          },
+          {
+            "name": "NlpMatchCount"
+          },
+          {
+            "name": "NlpMessageCount"
+          },
+          {
+            "name": "OptionsMenuSelectionsCount"
+          },
+          {
+            "name": "IsRequestedEscalation"
+          },
+          {
+            "name": "WasSessionDropped"
+          },
+          {
+            "name": "SessionEndType"
+          },
+          {
+            "name": "SessionStartTime"
+          },
+          {
+            "name": "StartedDialogsCount"
+          },
+          {
+            "name": "IsSuccessfulEscalation"
+          },
+          {
+            "name": "ToBotMessageCount"
+          },
+          {
+            "name": "IsUnsuccessfulEscalation"
+          },
+          {
+            "name": "AccessTimestamp"
+          },
+          {
+            "name": "ChatSessionId"
+          },
+          {
+            "name": "LiveChatTranscriptId"
+          }
+        ],
+        "object": "BotAnalytics"
+      }
+    },
+    "LiveChatTranscript": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "fields": [
+          {
+            "name": "OperatorMessageCount"
+          },
+          {
+            "name": "Id"
+          },
+          {
+            "name": "VisitorMessageCount"
+          }
+        ],
+        "object": "LiveChatTranscript"
+      }
+    }
+  },
+  "_type": "dataflow",
+  "_lastModifiedBy": {
+    "_type": "user",
+    "name": "Automated Process",
+    "_uid": "005f20000090QinAAE",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "description": "Einstein Bots",
+  "MasterLabel": "Einstein Bots",
+  "nextRun": "",
+  "WorkflowStatus": "Inactive",
+  "isDeletable": true,
+  "DataflowType": "USER",
+  "name": "Einstein_Bots",
+  "_url": "/insights/internal_api/v1.0/esObject/workflow/02Kf2000000pEVPEA2/json",
+  "_uid": "02Kf2000000pEVPEA2"
+}
