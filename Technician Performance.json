@@ -1,0 +1,3838 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://apmsandbox.my.salesforce.com/analytics/wave/dashboard?assetId=0FKf2000000msCUGAY&orgId=00Df2000001LxAD&loginHost=na53.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "005f20000090QiiAAE",
+    "name": "SDO_A5",
+    "profilePhotoUrl": "https://apmsandbox--c.na53.content.force.com/profilephoto/729f2000000rjAz/T"
+  },
+  "createdDate": "2018-07-20T19:12:08.000Z",
+  "datasets": [
+    {
+      "id": "0Fbf2000000HnBfCAK",
+      "label": "ServiceAppointment",
+      "name": "ServiceAppointment",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+    },
+    {
+      "id": "0Fbf2000000HnBgCAK",
+      "label": "AssignedResource",
+      "name": "AssignedResource",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBgCAK"
+    }
+  ],
+  "dateVersion": 1,
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 10351,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJf2000000Ti6ZGAS",
+      "lastModifiedDate": "2018-07-20T19:12:08.000Z",
+      "url": "/services/data/v44.0/wave/lenses/0FKf2000000msCUGAY/files/0FJf2000000Ti6ZGAS"
+    }
+  ],
+  "folder": {
+    "id": "00lf2000002Sm81AAC",
+    "label": "Field Service Analytics",
+    "name": "Field_Service_Analytics",
+    "url": "/services/data/v44.0/wave/folders/00lf2000002Sm81AAC"
+  },
+  "id": "0FKf2000000msCUGAY",
+  "label": "Technician Performance",
+  "lastModifiedBy": {
+    "id": "005f20000090QiiAAE",
+    "name": "SDO_A5",
+    "profilePhotoUrl": "https://apmsandbox--c.na53.content.force.com/profilephoto/729f2000000rjAz/T"
+  },
+  "lastModifiedDate": "2018-07-20T19:12:08.000Z",
+  "mobileDisabled": false,
+  "name": "Technician_Performance",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2018-07-20T19:12:08.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "maxWidth": 1360,
+        "name": "Default",
+        "numColumns": 48,
+        "pages": [
+          {
+            "name": "800c9335-a1dc-454f-b35c-81041b4af2c2",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 4,
+                "column": 1,
+                "name": "listselector_ServiceTerritoryId_N_2",
+                "row": 13,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 6,
+                "name": "listselector_ParentRecordId_Accou_2",
+                "row": 13,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 11,
+                "name": "listselector_ServiceTerritoryMemb_1",
+                "row": 13,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 21,
+                "name": "listselector_ParentRecordId_Prior_2",
+                "row": 13,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 42,
+                "name": "listselector_Time_Selection",
+                "row": 13,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_1",
+                "row": 11,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 35,
+                "name": "text__Work_Orders",
+                "row": 24,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 35,
+                "name": "number_ParentRecordId_1",
+                "row": 27,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 8,
+                "column": 40,
+                "name": "chart_ParentRecordId_Creat_1",
+                "row": 25,
+                "rowspan": 9,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 35,
+                "name": "number_WO_prev_compare_1",
+                "row": 32,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(WO_prev_compare_1.result, 0, &quot;color&quot;),&quot;#091A3E&quot;).asString()}}",
+                  "borderColor": "rgb(0, 0, 0)",
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 13,
+                "column": 35,
+                "name": "chart_Status_3",
+                "row": 37,
+                "rowspan": 15,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 13,
+                "column": 35,
+                "name": "chart_ParentRecordId_Prior_1",
+                "row": 52,
+                "rowspan": 15,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 34,
+                "column": 0,
+                "name": "container_3",
+                "row": 19,
+                "rowspan": 49,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(9, 26, 62)",
+                  "borderColor": "rgba(51, 87, 121, 0.5)",
+                  "borderEdges": [
+                    "right"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 34,
+                "name": "container_2",
+                "row": 19,
+                "rowspan": 49,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "rgb(5, 19, 89)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 44,
+                "column": 2,
+                "name": "text__Metrics_compared_to_prior_period",
+                "row": 70,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 2,
+                "name": "text_Avg_Travel_Time_min_",
+                "row": 74,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 18,
+                "name": "text_First_Time_Fix",
+                "row": 74,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 34,
+                "name": "text_Mean_Time_to_Repair_min_",
+                "row": 74,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 2,
+                "name": "number_Avg_Travel_Time_2",
+                "row": 77,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 8,
+                "column": 6,
+                "name": "chart_CreatedDate_Year_Cre_2",
+                "row": 77,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 2,
+                "name": "number_all_2",
+                "row": 81,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(all_2.result, 0, &quot;color&quot;),&quot;#ffffff&quot;).asString()}}",
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 8,
+                "column": 22,
+                "name": "chart_FirstTimeFixChart_1",
+                "row": 77,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 34,
+                "name": "number_ActualDuration_1",
+                "row": 77,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 8,
+                "column": 38,
+                "name": "chart_CreatedDate_Year_Cre_1",
+                "row": 77,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 18,
+                "name": "number_FirstTimeFix_1",
+                "row": 77,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 18,
+                "name": "number_all_3",
+                "row": 81,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(all_3.result, 0, &quot;color&quot;),&quot;#ffffff&quot;).asString()}}",
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 34,
+                "name": "number_Mean_Time_to_Repair_1",
+                "row": 81,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(Mean_Time_to_Repair__1.result, 0, &quot;color&quot;),&quot;#ffffff&quot;).asString()}}",
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 10,
+                "column": 1,
+                "name": "container_7",
+                "row": 89,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(ViolationsCompare_1.result, 0, &quot;left_color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 17,
+                "name": "text_Avg_SLA_Violations_Technician",
+                "row": 89,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(44, 149, 92, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 10,
+                "column": 17,
+                "name": "container_9",
+                "row": 89,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(SLAViolationsCompare_1.selection, 0, &quot;left_color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 10,
+                "column": 33,
+                "name": "container_10",
+                "row": 89,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(all_3.result, 0, &quot;left_color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 2,
+                "name": "pillbox_Sort_1",
+                "row": 120,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 44,
+                "column": 1,
+                "name": "text_Work_Order_Detail_Table",
+                "row": 129,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 8,
+                "column": 33,
+                "name": "text_First_Time_Fix_Rate",
+                "row": 89,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(44, 149, 92, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_6",
+                "row": 86,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "top",
+                    "left",
+                    "right"
+                  ]
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 1,
+                "name": "container_16",
+                "row": 97,
+                "rowspan": 27,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 16,
+                "name": "listselector_Status_1",
+                "row": 13,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 36,
+                "name": "text_Metrics_compared_to_prior_period",
+                "row": 21,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 11,
+                "column": 1,
+                "name": "text_Work_Order_Volume",
+                "row": 21,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 1,
+                "name": "chart_WO_Scatter_1",
+                "row": 26,
+                "rowspan": 39,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 11,
+                "name": "number_ViolationsCompare_1",
+                "row": 92,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(ViolationsCompare_1.result, 0, &quot;color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 18,
+                "name": "chart_SLAViolationsChart_1",
+                "row": 99,
+                "rowspan": 19,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 34,
+                "name": "chart_FirstTimeFixChart_2",
+                "row": 99,
+                "rowspan": 23,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 43,
+                "name": "number_all_31",
+                "row": 92,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(84, 105, 141, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 1,
+                "name": "text_Due_Date_Violations_Technician",
+                "row": 89,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(84, 105, 141, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 1,
+                "name": "number_ViolationsPerAgent_1",
+                "row": 92,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 2,
+                "name": "chart_ViolationsChart_1",
+                "row": 99,
+                "rowspan": 19,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 17,
+                "name": "number_SLAViolations_1",
+                "row": 92,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgba(230, 236, 242, 0)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 17,
+                "name": "container_5",
+                "row": 97,
+                "rowspan": 27,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "left",
+                    "right",
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 18,
+                "name": "pillbox_SLA_Sort_1",
+                "row": 120,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 27,
+                "name": "number_SLAViolationsCompare_1",
+                "row": 92,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(SLAViolationsCompare_1.selection, 0, &quot;color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 33,
+                "name": "number_FirstTimeFix_11",
+                "row": 92,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_8",
+                "row": 127,
+                "rowspan": 38,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 11,
+                "name": "container_11",
+                "row": 89,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(ViolationsCompare_1.result, 0, &quot;color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 33,
+                "name": "container_12",
+                "row": 97,
+                "rowspan": 27,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 27,
+                "name": "container_13",
+                "row": 89,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(SLAViolationsCompare_1.selection, 0, &quot;color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 43,
+                "name": "container_14",
+                "row": 89,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(all_3.result, 0, &quot;color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 0,
+                "name": "container_15",
+                "row": 89,
+                "rowspan": 38,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "left"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 47,
+                "name": "container_17",
+                "row": 89,
+                "rowspan": 38,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "right"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_18",
+                "row": 68,
+                "rowspan": 18,
+                "widgetStyle": {
+                  "borderEdges": [
+                    "left"
+                  ]
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_4",
+                "row": 3,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#634F95",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 18,
+                "column": 1,
+                "name": "text_Technician_Performance1",
+                "row": 3,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 33,
+                "name": "link_Work_Order_Overview",
+                "row": 8,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 15,
+                "name": "container_19",
+                "row": 89,
+                "rowspan": 35,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 31,
+                "name": "container_20",
+                "row": 89,
+                "rowspan": 35,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 46,
+                "column": 1,
+                "name": "container_21",
+                "row": 124,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 40,
+                "name": "text_Technician_Performance",
+                "row": 8,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "rgb(99, 79, 149)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 2
+                }
+              },
+              {
+                "colspan": 46,
+                "column": 1,
+                "name": "table_lens_21",
+                "row": 133,
+                "rowspan": 29,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "fine",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#C5D3E0",
+          "cellSpacingX": 0,
+          "cellSpacingY": 0,
+          "fit": "original",
+          "gutterColor": "#C5D3E0"
+        },
+        "version": 1
+      },
+      {
+        "name": "iPhone",
+        "numColumns": 4,
+        "pages": [
+          {
+            "name": "800c9335-a1dc-454f-b35c-81041b4af2c2",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "listselector_ServiceTerritoryId_N_2",
+                "row": 6,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 2,
+                "name": "listselector_ParentRecordId_Accou_2",
+                "row": 6,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "listselector_ServiceTerritoryMemb_1",
+                "row": 10,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 2,
+                "name": "listselector_ParentRecordId_Prior_2",
+                "row": 10,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "listselector_Time_Selection",
+                "row": 2,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "container_1",
+                "row": 0,
+                "rowspan": 16,
+                "widgetStyle": {
+                  "backgroundColor": "#E6ECF2",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 1,
+                "name": "text_Work_Order_Volume",
+                "row": 18,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "chart_WO_Scatter_1",
+                "row": 23,
+                "rowspan": 36,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "rgb(92, 122, 153)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "container_3",
+                "row": 16,
+                "rowspan": 47,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(9, 26, 62)",
+                  "borderColor": "rgba(51, 87, 121, 0.5)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "text_Metrics_compared_to_prior_period",
+                "row": 67,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "text__Work_Orders",
+                "row": 73,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "chart_ParentRecordId_Creat_1",
+                "row": 78,
+                "rowspan": 9,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 2,
+                "name": "number_ParentRecordId_1",
+                "row": 73,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 3,
+                "name": "number_WO_prev_compare_1",
+                "row": 73,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(WO_prev_compare_1.result, 0, &quot;color&quot;),&quot;#091A3E&quot;).asString()}}",
+                  "borderColor": "rgb(0, 0, 0)",
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "chart_Status_3",
+                "row": 93,
+                "rowspan": 22,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "chart_ParentRecordId_Prior_1",
+                "row": 118,
+                "rowspan": 22,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "container_2",
+                "row": 63,
+                "rowspan": 79,
+                "widgetStyle": {
+                  "backgroundColor": "#091A3E",
+                  "borderColor": "#5C7A99",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "text__Metrics_compared_to_prior_period",
+                "row": 144,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "text_Avg_Travel_Time_min_",
+                "row": 148,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "text_First_Time_Fix",
+                "row": 166,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "text_Mean_Time_to_Repair_min_",
+                "row": 184,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 2,
+                "name": "number_Avg_Travel_Time_2",
+                "row": 148,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "chart_CreatedDate_Year_Cre_2",
+                "row": 153,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 2,
+                "name": "number_FirstTimeFix_1",
+                "row": 166,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "chart_FirstTimeFixChart_1",
+                "row": 171,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 2,
+                "name": "number_ActualDuration_1",
+                "row": 184,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "chart_CreatedDate_Year_Cre_1",
+                "row": 190,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 3,
+                "name": "number_all_2",
+                "row": 148,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(all_2.result, 0, &quot;color&quot;),&quot;#ffffff&quot;).asString()}}",
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 3,
+                "name": "number_all_3",
+                "row": 166,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(all_3.result, 0, &quot;color&quot;),&quot;#ffffff&quot;).asString()}}",
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 3,
+                "name": "number_Mean_Time_to_Repair_1",
+                "row": 184,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(Mean_Time_to_Repair__1.result, 0, &quot;color&quot;),&quot;#ffffff&quot;).asString()}}",
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "container_18",
+                "row": 142,
+                "rowspan": 22,
+                "widgetStyle": {
+                  "borderColor": "#091A3E",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderWidth": 2
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 0,
+                "name": "text_Due_Date_Violations_Technician",
+                "row": 206,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(84, 105, 141, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "number_ViolationsPerAgent_1",
+                "row": 208,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 0,
+                "name": "container_7",
+                "row": 205,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(ViolationsCompare_1.result, 0, &quot;left_color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 3,
+                "name": "number_ViolationsCompare_1",
+                "row": 208,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(ViolationsCompare_1.result, 0, &quot;color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 3,
+                "name": "container_11",
+                "row": 205,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(ViolationsCompare_1.result, 0, &quot;color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 0,
+                "name": "text_Avg_SLA_Violations_Technician",
+                "row": 241,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(44, 149, 92, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "number_SLAViolations_1",
+                "row": 243,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgba(230, 236, 242, 0)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 0,
+                "name": "container_9",
+                "row": 240,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(SLAViolationsCompare_1.selection, 0, &quot;left_color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 3,
+                "name": "number_SLAViolationsCompare_1",
+                "row": 243,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(SLAViolationsCompare_1.selection, 0, &quot;color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 3,
+                "name": "container_13",
+                "row": 240,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(SLAViolationsCompare_1.selection, 0, &quot;color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "text_First_Time_Fix_Rate",
+                "row": 276,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(44, 149, 92, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "number_FirstTimeFix_11",
+                "row": 278,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 0,
+                "name": "container_10",
+                "row": 275,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(all_3.result, 0, &quot;left_color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 3,
+                "name": "number_all_31",
+                "row": 278,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(84, 105, 141, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 3,
+                "name": "container_14",
+                "row": 275,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "backgroundColor": "{{coalesce(cell(all_3.result, 0, &quot;color&quot;),&quot;#54698D&quot;).asString()}}",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "chart_ViolationsChart_1",
+                "row": 214,
+                "rowspan": 19,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "pillbox_Sort_1",
+                "row": 234,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": [],
+                  "borderRadius": 4
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "container_16",
+                "row": 212,
+                "rowspan": 25,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "chart_SLAViolationsChart_1",
+                "row": 249,
+                "rowspan": 19,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "pillbox_SLA_Sort_1",
+                "row": 269,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 4,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "container_5",
+                "row": 247,
+                "rowspan": 25,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "left",
+                    "right",
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "chart_FirstTimeFixChart_2",
+                "row": 284,
+                "rowspan": 22,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "container_12",
+                "row": 282,
+                "rowspan": 25,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 1,
+                "name": "text_Work_Order_Detail_Table",
+                "row": 312,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "container_8",
+                "row": 310,
+                "rowspan": 35,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "table_lens_2",
+                "row": 315,
+                "rowspan": 28,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "container_23",
+                "row": 182,
+                "rowspan": 18,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 2
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 0,
+                "name": "container_24",
+                "row": 164,
+                "rowspan": 18,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 4
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "fine",
+        "selectors": [
+          "maxWidth(599)"
+        ],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#F2F6FA",
+          "cellSpacingX": 0,
+          "cellSpacingY": 0,
+          "fit": "original",
+          "gutterColor": "#F2F6FA"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "ViolationsCompare_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "ViolationsCompare",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; curr = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; prev = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;LastPeriodCompare&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; curr = group curr by &#39;Id&#39;; curr = foreach curr generate sum(&#39;ActualEndTime_sec_epoch&#39;) as &#39;ActualEndTime_sec_epoch&#39;, sum(&#39;DueDate_sec_epoch&#39;) as &#39;DueDate_sec_epoch&#39;, &#39;Id&#39; as &#39;Id&#39;, first(&#39;AssignedResource.User.User.Name&#39;) as &#39;AssignedResource.User.User.Name&#39;; curr = filter curr by &#39;ActualEndTime_sec_epoch&#39; &gt; &#39;DueDate_sec_epoch&#39;; curr = group curr by all; curr = foreach curr generate count() / unique(&#39;AssignedResource.User.User.Name&#39;) as &#39;avg_curr_violations_per_agent&#39;; prev = group prev by &#39;Id&#39;; prev = foreach prev generate sum(&#39;ActualEndTime_sec_epoch&#39;) as &#39;ActualEndTime_sec_epoch&#39;, sum(&#39;DueDate_sec_epoch&#39;) as &#39;DueDate_sec_epoch&#39;, &#39;Id&#39; as &#39;Id&#39;, first(&#39;AssignedResource.User.User.Name&#39;) as &#39;AssignedResource.User.User.Name&#39;; prev = filter prev by &#39;ActualEndTime_sec_epoch&#39; &gt; &#39;DueDate_sec_epoch&#39;; prev = group prev by all; prev = foreach prev generate count() / unique(&#39;AssignedResource.User.User.Name&#39;) as &#39;avg_prev_violations_per_agent&#39;; z = union curr,prev; z = group z by all; z = foreach z generate 100*(sum(&#39;avg_curr_violations_per_agent&#39;) - sum(&#39;avg_prev_violations_per_agent&#39;) / sum(&#39;avg_prev_violations_per_agent&#39;)) as &#39;perc_violations_compare&#39;, (case when 100*(sum(&#39;avg_curr_violations_per_agent&#39;) - sum(&#39;avg_prev_violations_per_agent&#39;) / sum(&#39;avg_prev_violations_per_agent&#39;)) &lt; 0 then &#92;&quot;#039264&#92;&quot; when 100*(sum(&#39;avg_curr_violations_per_agent&#39;) - sum(&#39;avg_prev_violations_per_agent&#39;) / sum(&#39;avg_prev_violations_per_agent&#39;)) &gt; 0 then &#92;&quot;#C03757&#92;&quot; else &#92;&quot;#54698D&#92;&quot; end) as &#39;color&#39;, (case when 100*(sum(&#39;avg_curr_violations_per_agent&#39;) - sum(&#39;avg_prev_violations_per_agent&#39;) / sum(&#39;avg_prev_violations_per_agent&#39;)) &lt; 0 then &#92;&quot;#0BA976&#92;&quot; when 100*(sum(&#39;avg_curr_violations_per_agent&#39;) - sum(&#39;avg_prev_violations_per_agent&#39;) / sum(&#39;avg_prev_violations_per_agent&#39;)) &gt; 0 then &#92;&quot;#D14062&#92;&quot; else &#92;&quot;#54698D&#92;&quot; end) as &#39;left_color&#39;; &quot;,&quot;measures&quot;:[[&quot;perc&quot;,&quot;violations_compare&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Sort_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;Descending&quot;]}",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Ascending&quot;,&quot;value&quot;:&quot;asc&quot;,&quot;compact_value&quot;:true}",
+          "{&quot;display&quot;:&quot;Descending&quot;,&quot;value&quot;:&quot;desc&quot;,&quot;compact_value&quot;:false}"
+        ]
+      },
+      "FirstTimeFixChart_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "FirstTimeFixChart",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.result, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.result, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.result, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.result, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; i = filter q by &#39;StatusCategory&#39; == &#92;&quot;CannotComplete&#92;&quot;; g = group q by &#39;ParentRecordId.WorkTypeId.Name&#39; left, i by &#39;ParentRecordId.WorkTypeId.Name&#39;; g = foreach g generate (1-(count(i)/count(q)))*100 as sum_first_time_fix, q[&#39;ParentRecordId.WorkTypeId.Name&#39;] as &#39;ParentRecordId.WorkTypeId.Name&#39;;&quot;,&quot;measures&quot;:[[&quot;sum&quot;,&quot;first_time_fix&quot;]],&quot;groups&quot;:[&quot;ParentRecordId.WorkTypeId.Name&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "none",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "FirstTimeFixChart_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "FirstTimeFixChart",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;a = load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter a by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; i = filter q by &#39;StatusCategory&#39; == &#92;&quot;CannotComplete&#92;&quot;; g = group q by {{cell(Time_Selection.selection, 0, &#92;&quot;GroupbyEarliestStartTime&#92;&quot;).asObject()}} left, i by {{cell(Time_Selection.selection, 0, &#92;&quot;GroupbyEarliestStartTime&#92;&quot;).asObject()}}; g = foreach g generate (1-(count(i)/count(q)))*100 as sum_first_time_fix, {{cell(Time_Selection.selection, 0, &#92;&quot;cogroupGenerateEarliestStartTime&#92;&quot;).asObject()}};&quot;,&quot;measures&quot;:[[&quot;sum&quot;,&quot;first_time_fix&quot;]],&quot;groups&quot;:[&quot;{{cell(Time_Selection.selection, 0, &#92;&quot;compactGroup&#92;&quot;).asObject()}}&quot;],&quot;filters&quot;:[[&quot;EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "vbar"
+        }
+      },
+      "WO_prev_compare_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "WO_prev_compare",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}};q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}};q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; r = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;LastPeriodCompare&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; s = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; t = group r by all, s by all;  t = foreach t generate coalesce(100*((count(s)-count(r))/count(r)), 0) as &#39;perc_Percent&#39;, (case when 100*((count(s)-count(r))/count(r)) &lt; 0 then &#92;&quot;#D14062&#92;&quot; when 100*((count(s)-count(r))/count(r)) &gt; 0 then &#92;&quot;#0BA976&#92;&quot; else &#92;&quot;#54698D&#92;&quot; end) as &#39;color&#39;;&quot;,&quot;measures&quot;:[[&quot;perc&quot;,&quot;Percent&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "WO_Scatter_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "WO_Scatter",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;a = load &#92;&quot;ServiceAppointment&#92;&quot;; a = filter a by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; a = filter a by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; a = filter a by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; a = filter a by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; a = filter a by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; a = filter a by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; a = filter a by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; a = filter a by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}};   b=load &#92;&quot;AssignedResource&#92;&quot;; b = filter b by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ServiceTerritoryId.Name&#92;&quot;)}}; b = filter b by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.AccountId.Name&#92;&quot;)}}; b = filter b by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;User.User.Name&#92;&quot;)}}; b = filter b by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.Priority&#92;&quot;)}}; b = filter b by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.Priority&#92;&quot;)}}; b = filter b by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; b = filter b by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; b = filter b by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Month&#39;,&#39;SA.EarliestStartTime_Day&#39;)&#92;&quot;)}}; c = group a by &#39;AssignedResource.User.User.Name&#39;, b by &#39;User.User.Name&#39;; c = foreach c generate a.&#39;AssignedResource.User.User.Name&#39; as &#39;AssignedResource.User.User.Name&#39;, b.&#39;User.User.Name&#39; as &#39;User.User.Name&#39;, avg(a.&#39;ActualDuration&#39;) as &#39;avg_ActualDuration&#39;, avg(b.&#39;ActualTravelTime&#39;) as &#39;avg_ActualTravelTime&#39;, count(a) as &#39;count&#39;; c = order c by &#39;AssignedResource.User.User.Name&#39; asc; c = limit c 2000;&quot;,&quot;measures&quot;:[[&quot;avg&quot;,&quot;ActualDuration&quot;],[&quot;avg&quot;,&quot;ActualTravelTime&quot;],[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;AssignedResource.User.User.Name&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "ServiceTerritoryMemb_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;AssignedResource.User.User.Name&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "SLAViolationsChart_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "SLAViolationsChart",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by &#39;ActualStartTime_sec_epoch&#39; &gt; 0; q = filter q by &#39;ArrivalWindowEndTime_sec_epoch&#39; &gt; 0; q = group q by &#39;Id&#39;; q = foreach q generate sum(&#39;ActualStartTime_sec_epoch&#39;) as &#39;ActualStartTime_sec_epoch&#39;, sum(&#39;ArrivalWindowEndTime_sec_epoch&#39;) as &#39;ArrivalWindowEndTime_sec_epoch&#39;, first(&#39;AssignedResource.User.User.Name&#39;) as &#39;AssignedResource.User.User.Name&#39;, first(&#39;ParentRecordId.WorkTypeId.Name&#39;) as &#39;ParentRecordId.WorkTypeId.Name&#39;; q = filter q by &#39;ActualStartTime_sec_epoch&#39; &gt; &#39;ArrivalWindowEndTime_sec_epoch&#39;; q = group q by (&#39;AssignedResource.User.User.Name&#39;,&#39;ParentRecordId.WorkTypeId.Name&#39;); q = foreach q generate count() as count, &#39;AssignedResource.User.User.Name&#39; as &#39;AssignedResource.User.User.Name&#39;, &#39;ParentRecordId.WorkTypeId.Name&#39; as &#39;ParentRecordId.WorkTypeId.Name&#39;; q = order q by count {{cell(SLA_Sort_1.selection, 0, &#92;&quot;value&#92;&quot;).asString()}}&quot;,&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;AssignedResource.User.User.Name&quot;,&quot;ParentRecordId.WorkTypeId.Name&quot;],&quot;order&quot;:[[-1,{&quot;ascending&quot;:&quot;{{cell(SLA_Sort_1.selection, 0, &#92;&quot;compact_value&#92;&quot;).asObject()}}&quot;}]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "none",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "ViolationsChart_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "ViolationsChart",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = group q by &#39;Id&#39;; q = foreach q generate sum(&#39;ActualEndTime_sec_epoch&#39;) as &#39;ActualEndTime_sec_epoch&#39;, sum(&#39;DueDate_sec_epoch&#39;) as &#39;DueDate_sec_epoch&#39;, first(&#39;AssignedResource.User.User.Name&#39;) as &#39;AssignedResource.User.User.Name&#39;, first(&#39;ParentRecordId.WorkTypeId.Name&#39;) as &#39;ParentRecordId.WorkTypeId.Name&#39;; q = filter q by &#39;ActualEndTime_sec_epoch&#39; &gt; &#39;DueDate_sec_epoch&#39;; q = group q by (&#39;AssignedResource.User.User.Name&#39;,&#39;ParentRecordId.WorkTypeId.Name&#39;); q = foreach q generate count() as count, &#39;AssignedResource.User.User.Name&#39; as &#39;AssignedResource.User.User.Name&#39;, &#39;ParentRecordId.WorkTypeId.Name&#39; as &#39;ParentRecordId.WorkTypeId.Name&#39;; q = order q by count {{cell(Sort_1.selection, 0, &#92;&quot;value&#92;&quot;).asString()}}&quot;,&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;AssignedResource.User.User.Name&quot;,&quot;ParentRecordId.WorkTypeId.Name&quot;],&quot;order&quot;:[[-1,{&quot;ascending&quot;:&quot;{{cell(Sort_1.selection, 0, &#92;&quot;compact_value&#92;&quot;).asObject()}}&quot;}]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "none",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "ParentRecordId_Creat_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[[&quot;EarliestStartTime_Year&quot;,&quot;EarliestStartTime_Month&quot;,&quot;EarliestStartTime_Day&quot;]],&quot;filters&quot;:[[&quot;EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "none",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "time"
+        }
+      },
+      "ParentRecordId_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;filters&quot;:[[&quot;EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "Time_Selection": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;Last 2 years&quot;]}",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;YTD&quot;,&quot;text_display&quot;:&quot;vs previous YTD&quot;,&quot;Backlog30DayClose&quot;:&quot;[&#92;&quot;current day - 395 days&#92;&quot;..&#92;&quot;current day - 1 year&#92;&quot;]&quot;,&quot;BacklogCompare&quot;:[&quot;current day - 1 year&quot;,&quot;current day&quot;],&quot;BacklogLabel&quot;:&quot;Backlog Last Year&quot;,&quot;ClosedField&quot;:&quot;&#39;ClosedDate_Month&#39;&quot;,&quot;CoGroup&quot;:&quot;(&#39;EarliestStartTime_Month&#39;)&quot;,&quot;Compact&quot;:[[&quot;year&quot;,0],[&quot;year&quot;,0]],&quot;CreatedField&quot;:&quot;&#39;EarliestStartTime_Month&#39;&quot;,&quot;CreatedProjection&quot;:&quot;created[&#39;EarliestStartTime_Month&#39;]&quot;,&quot;Current&quot;:[&quot;current year&quot;,&quot;current day&quot;],&quot;FullGroup&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Month&quot;,&quot;GenerateClosedDate&quot;:&quot;&#39;ClosedDate_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;ClosedDate_Month&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;GenerateCoGroupDate&quot;:&quot;created[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+created[&#39;EarliestStartTime_Month&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;GenerateEarliestStartTime&quot;:&quot;&#39;EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;EarliestStartTime_Month&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;cogroupGenerateEarliestStartTime&quot;:&quot;q[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+q[&#39;EarliestStartTime_Month&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;SAGenerateEarliestStartTime&quot;:&quot;&#39;SA.EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;SA.EarliestStartTime_Month&#39; as &#39;SA.EarliestStartTime_Year~~~SA.EarliestStartTime_Month&#39;&quot;,&quot;GroupbyClosedDate&quot;:&quot;(&#39;ClosedDate_Year&#39;,&#39;ClosedDate_Month&#39;)&quot;,&quot;GroupbyEarliestStartTime&quot;:&quot;(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;)&quot;,&quot;SAGroupbyEarliestStartTime&quot;:&quot;(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Month&#39;)&quot;,&quot;Grouping&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Month&quot;,&quot;LastPeriodCompare&quot;:[&quot;current year - 1 year&quot;,&quot;current day - 1 year&quot;],&quot;LastYearCompare&quot;:[&quot;current year - 1 year&quot;,&quot;current day - 1 year&quot;],&quot;Measure&quot;:[&quot;Backlog&quot;,&quot;Count&quot;,null,{&quot;display&quot;:&quot;Backlog Count at Start of Month&quot;}],&quot;compactGroup&quot;:[&quot;EarliestStartTime_Year&quot;,&quot;EarliestStartTime_Month&quot;],&quot;icompactGroup&quot;:[&quot;i[EarliestStartTime_Year]&quot;,&quot;i[EarliestStartTime_Month]&quot;],&quot;SAcompactGroup&quot;:[&quot;SA.EarliestStartTime_Year&quot;,&quot;SA.EarliestStartTime_Month&quot;],&quot;filter&quot;:&quot;year&quot;,&quot;queryCogroupNew&quot;:&quot;first(ThisYear[&#39;EarliestStartTime_Year&#39;])+&#92;&quot;~~~&#92;&quot;+ThisYear[&#39;EarliestStartTime_Month&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;SAQL&quot;:&quot;coalesce((avg(ThisYear[&#39;Duration__c&#39;])-avg(LastYear[&#39;Duration__c&#39;]))/avg(LastYear[&#39;Duration__c&#39;]),0)*100 as sum_Percent&quot;,&quot;trendProjection&quot;:&quot;toString(now(), &#92;&quot;yyyy&#92;&quot;)+&#92;&quot;~~~&#92;&quot;+toString(now(), &#92;&quot;99&#92;&quot;)&quot;}",
+          "{&quot;display&quot;:&quot;QTD&quot;,&quot;text_display&quot;:&quot;vs previous QTD&quot;,&quot;Backlog30DayClose&quot;:&quot;[&#92;&quot;current day - 120 days&#92;&quot;..&#92;&quot;current day - 1 quarter&#92;&quot;]&quot;,&quot;BacklogCompare&quot;:[&quot;current day - 1 quarter&quot;,&quot;current day&quot;],&quot;BacklogLabel&quot;:&quot;Backlog Last Quarter&quot;,&quot;ClosedField&quot;:&quot;&#39;ClosedDate_Week&#39;&quot;,&quot;CoGroup&quot;:&quot;(&#39;EarliestStartTime_Week&#39;)&quot;,&quot;Compact&quot;:[[&quot;quarter&quot;,0],[&quot;quarter&quot;,0]],&quot;CreatedField&quot;:&quot;&#39;EarliestStartTime_Week&#39;&quot;,&quot;CreatedProjection&quot;:&quot;created[&#39;EarliestStartTime_Week&#39;]&quot;,&quot;Current&quot;:[&quot;current quarter&quot;,&quot;current day&quot;],&quot;FullGroup&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Week&quot;,&quot;GenerateClosedDate&quot;:&quot;&#39;ClosedDate_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;ClosedDate_Week&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Week&#39;&quot;,&quot;GenerateCoGroupDate&quot;:&quot;created[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+created[&#39;EarliestStartTime_Week&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Week&#39;&quot;,&quot;GenerateEarliestStartTime&quot;:&quot;&#39;EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;EarliestStartTime_Week&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Week&#39;&quot;,&quot;cogroupGenerateEarliestStartTime&quot;:&quot;q[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+q[&#39;EarliestStartTime_Week&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Week&#39;&quot;,&quot;SAGenerateEarliestStartTime&quot;:&quot;&#39;SA.EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;SA.EarliestStartTime_Week&#39; as &#39;SA.EarliestStartTime_Year~~~SA.EarliestStartTime_Week&#39;&quot;,&quot;GroupbyClosedDate&quot;:&quot;(&#39;ClosedDate_Year&#39;,&#39;ClosedDate_Week&#39;)&quot;,&quot;GroupbyEarliestStartTime&quot;:&quot;(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Week&#39;)&quot;,&quot;SAGroupbyEarliestStartTime&quot;:&quot;(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Week&#39;)&quot;,&quot;Grouping&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Week&quot;,&quot;LastPeriodCompare&quot;:[&quot;current quarter - 1 quarter&quot;,&quot;current day - 1 quarter&quot;],&quot;LastYearCompare&quot;:[&quot;current quarter - 1 year&quot;,&quot;current day - 1 year&quot;],&quot;Measure&quot;:[&quot;Backlog&quot;,&quot;Count&quot;,null,{&quot;display&quot;:&quot;Backlog Count at Start of Week&quot;}],&quot;compactGroup&quot;:[&quot;EarliestStartTime_Year&quot;,&quot;EarliestStartTime_Week&quot;],&quot;icompactGroup&quot;:[&quot;i[EarliestStartTime_Year]&quot;,&quot;i[EarliestStartTime_Week]&quot;],&quot;SAcompactGroup&quot;:[&quot;SA.EarliestStartTime_Year&quot;,&quot;SA.EarliestStartTime_Week&quot;],&quot;filter&quot;:&quot;quarter&quot;,&quot;queryCogroupNew&quot;:&quot;first(ThisYear[&#39;EarliestStartTime_Year&#39;])+&#92;&quot;~~~&#92;&quot;+ThisYear[&#39;EarliestStartTime_Week&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Week&#39;&quot;,&quot;SAQL&quot;:&quot;coalesce((avg(ThisYear[&#39;Duration__c&#39;])-avg(LastYear[&#39;Duration__c&#39;]))/avg(LastYear[&#39;Duration__c&#39;]),0)*100 as sum_Percent&quot;,&quot;trendProjection&quot;:&quot;toString(now(), &#92;&quot;yyyy&#92;&quot;)+&#92;&quot;~~~&#92;&quot;+toString(now(), &#92;&quot;99&#92;&quot;)&quot;}",
+          "{&quot;display&quot;:&quot;MTD&quot;,&quot;text_display&quot;:&quot;vs previous MTD&quot;,&quot;Backlog30DayClose&quot;:&quot;[&#92;&quot;current day - 60 days&#92;&quot;..&#92;&quot;current day - 1 month&#92;&quot;]&quot;,&quot;BacklogCompare&quot;:[&quot;current day - 1 month&quot;,&quot;current day&quot;],&quot;BacklogLabel&quot;:&quot;Backlog Last Month&quot;,&quot;ClosedField&quot;:&quot;&#39;ClosedDate_Month&#39;,&#39;ClosedDate_Day&#39;&quot;,&quot;CoGroup&quot;:&quot;(&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&quot;,&quot;Compact&quot;:[[&quot;month&quot;,0],[&quot;month&quot;,0]],&quot;CreatedField&quot;:&quot;&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;&quot;,&quot;CreatedProjection&quot;:&quot;created[&#39;EarliestStartTime_Month&#39;] +&#92;&quot;~~~&#92;&quot; + created[&#39;EarliestStartTime_Day&#39;]&quot;,&quot;Current&quot;:[&quot;current month&quot;,&quot;current month&quot;],&quot;FullGroup&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&quot;,&quot;GenerateClosedDate&quot;:&quot;&#39;ClosedDate_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;ClosedDate_Month&#39;+&#92;&quot;~~~&#92;&quot;+&#39;ClosedDate_Day&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&#39;&quot;,&quot;GenerateCoGroupDate&quot;:&quot;created[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+created[&#39;EarliestStartTime_Month&#39;]+&#92;&quot;~~~&#92;&quot;+created[&#39;EarliestStartTime_Day&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&#39;&quot;,&quot;GenerateEarliestStartTime&quot;:&quot;&#39;EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;EarliestStartTime_Month&#39;+&#92;&quot;~~~&#92;&quot;+&#39;EarliestStartTime_Day&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&#39;&quot;,&quot;cogroupGenerateEarliestStartTime&quot;:&quot;q[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+q[&#39;EarliestStartTime_Month&#39;]+&#92;&quot;~~~&#92;&quot;+q[&#39;EarliestStartTime_Day&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&#39;&quot;,&quot;SAGenerateEarliestStartTime&quot;:&quot;&#39;SA.EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;SA.EarliestStartTime_Month&#39;+&#92;&quot;~~~&#92;&quot;+&#39;SA.EarliestStartTime_Day&#39; as &#39;SA.EarliestStartTime_Year~~~SA.EarliestStartTime_Month~~~SA.EarliestStartTime_Day&#39;&quot;,&quot;GroupbyClosedDate&quot;:&quot;(&#39;ClosedDate_Year&#39;,&#39;ClosedDate_Month&#39;,&#39;ClosedDate_Day&#39;)&quot;,&quot;GroupbyEarliestStartTime&quot;:&quot;(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&quot;,&quot;SAGroupbyEarliestStartTime&quot;:&quot;(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Month&#39;,&#39;SA.EarliestStartTime_Day&#39;)&quot;,&quot;Grouping&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&quot;,&quot;LastPeriodCompare&quot;:[&quot;current month - 1 month&quot;,&quot;current day - 1 month&quot;],&quot;LastYearCompare&quot;:[&quot;current month - 1 year&quot;,&quot;current day - 1 year&quot;],&quot;Measure&quot;:[&quot;Backlog&quot;,&quot;Count&quot;,null,{&quot;display&quot;:&quot;Backlog Count at Start of Day&quot;}],&quot;compactGroup&quot;:[&quot;EarliestStartTime_Year&quot;,&quot;EarliestStartTime_Month&quot;,&quot;EarliestStartTime_Day&quot;],&quot;icompactGroup&quot;:[&quot;i[EarliestStartTime_Year]&quot;,&quot;i[EarliestStartTime_Month]&quot;,&quot;i[EarliestStartTime_Day]&quot;],&quot;SAcompactGroup&quot;:[&quot;SA.EarliestStartTime_Year&quot;,&quot;SA.EarliestStartTime_Month&quot;,&quot;SA.EarliestStartTime_Day&quot;],&quot;filter&quot;:&quot;month&quot;,&quot;queryCogroupNew&quot;:&quot;first(ThisYear[&#39;EarliestStartTime_Year&#39;])+&#92;&quot;~~~&#92;&quot;+ThisYear[&#39;EarliestStartTime_Month&#39;]+&#92;&quot;~~~&#92;&quot;+ThisYear[&#39;EarliestStartTime_Day&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&#39;&quot;,&quot;trendProjection&quot;:&quot;toString(now(), &#92;&quot;yyyy~~~MM&#92;&quot;)+&#92;&quot;~~~&#92;&quot;+toString(now(), &#92;&quot;99&#92;&quot;)&quot;}",
+          "{&quot;display&quot;:&quot;Last 7 Days&quot;,&quot;text_display&quot;:&quot;vs previous 7 days&quot;,&quot;Backlog30DayClose&quot;:&quot;[&#92;&quot;current day - 37 days&#92;&quot;..&#92;&quot;current day - 7 days&#92;&quot;]&quot;,&quot;BacklogCompare&quot;:[&quot;current day - 1 week&quot;,&quot;current day&quot;],&quot;BacklogLabel&quot;:&quot;Backlog Last 7 Days&quot;,&quot;ClosedField&quot;:&quot;&#39;ClosedDate_Month&#39;,&#39;ClosedDate_Day&#39;&quot;,&quot;CoGroup&quot;:&quot;(&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&quot;,&quot;Compact&quot;:[[&quot;day&quot;,-7],[&quot;day&quot;,0]],&quot;CreatedField&quot;:&quot;&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;&quot;,&quot;CreatedProjection&quot;:&quot;created[&#39;EarliestStartTime_Month&#39;] +&#92;&quot;~~~&#92;&quot; + created[&#39;EarliestStartTime_Day&#39;]&quot;,&quot;Current&quot;:[&quot;7 days ago&quot;,&quot;current day&quot;],&quot;FullGroup&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&quot;,&quot;GenerateClosedDate&quot;:&quot;&#39;ClosedDate_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;ClosedDate_Month&#39;+&#92;&quot;~~~&#92;&quot;+&#39;ClosedDate_Day&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&#39;&quot;,&quot;GenerateCoGroupDate&quot;:&quot;created[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+created[&#39;EarliestStartTime_Month&#39;]+&#92;&quot;~~~&#92;&quot;+created[&#39;EarliestStartTime_Day&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&#39;&quot;,&quot;GenerateEarliestStartTime&quot;:&quot;&#39;EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;EarliestStartTime_Month&#39;+&#92;&quot;~~~&#92;&quot;+&#39;EarliestStartTime_Day&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&#39;&quot;,&quot;cogroupGenerateEarliestStartTime&quot;:&quot;q[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+q[&#39;EarliestStartTime_Month&#39;]+&#92;&quot;~~~&#92;&quot;+q[&#39;EarliestStartTime_Day&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&#39;&quot;,&quot;SAGenerateEarliestStartTime&quot;:&quot;&#39;SA.EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;SA.EarliestStartTime_Month&#39;+&#92;&quot;~~~&#92;&quot;+&#39;SA.EarliestStartTime_Day&#39; as &#39;SA.EarliestStartTime_Year~~~SA.EarliestStartTime_Month~~~SA.EarliestStartTime_Day&#39;&quot;,&quot;GroupbyClosedDate&quot;:&quot;(&#39;ClosedDate_Year&#39;,&#39;ClosedDate_Month&#39;,&#39;ClosedDate_Day&#39;)&quot;,&quot;GroupbyEarliestStartTime&quot;:&quot;(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&quot;,&quot;SAGroupbyEarliestStartTime&quot;:&quot;(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Month&#39;,&#39;SA.EarliestStartTime_Day&#39;)&quot;,&quot;Grouping&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&quot;,&quot;LastPeriodCompare&quot;:[&quot;7 days ago - 1 week&quot;,&quot;current day - 1 week&quot;],&quot;LastYearCompare&quot;:[&quot;7 days ago - 1 year&quot;,&quot;current day - 1 year&quot;],&quot;Measure&quot;:[&quot;Backlog&quot;,&quot;Count&quot;,null,{&quot;display&quot;:&quot;Backlog Count at Start of Day&quot;}],&quot;compactGroup&quot;:[&quot;EarliestStartTime_Year&quot;,&quot;EarliestStartTime_Month&quot;,&quot;EarliestStartTime_Day&quot;],&quot;icompactGroup&quot;:[&quot;i[EarliestStartTime_Year]&quot;,&quot;i[EarliestStartTime_Month]&quot;,&quot;i[EarliestStartTime_Day]&quot;],&quot;SAcompactGroup&quot;:[&quot;SA.EarliestStartTime_Year&quot;,&quot;SA.EarliestStartTime_Month&quot;,&quot;SA.EarliestStartTime_Day&quot;],&quot;filter&quot;:&quot;week&quot;,&quot;queryCogroupNew&quot;:&quot;first(ThisYear[&#39;EarliestStartTime_Year&#39;])+&#92;&quot;~~~&#92;&quot;+ThisYear[&#39;EarliestStartTime_Month&#39;]+&#92;&quot;~~~&#92;&quot;+ThisYear[&#39;EarliestStartTime_Day&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month~~~EarliestStartTime_Day&#39;&quot;,&quot;trendProjection&quot;:&quot;toString(now(), &#92;&quot;yyyy~~~MM&#92;&quot;)+&#92;&quot;~~~&#92;&quot;+toString(now(), &#92;&quot;99&#92;&quot;)&quot;}",
+          "{&quot;display&quot;:&quot;Last 30 Days&quot;,&quot;text_display&quot;:&quot;vs previous 30 days&quot;,&quot;Backlog30DayClose&quot;:&quot;[&#92;&quot;current day - 60 days&#92;&quot;..&#92;&quot;current day - 30 days&#92;&quot;]&quot;,&quot;BacklogCompare&quot;:[&quot;current day - 30 days&quot;,&quot;current day&quot;],&quot;BacklogLabel&quot;:&quot;Backlog Last 30 Days&quot;,&quot;ClosedField&quot;:&quot;&#39;ClosedDate_Week&#39;&quot;,&quot;CoGroup&quot;:&quot;(&#39;EarliestStartTime_Week&#39;)&quot;,&quot;Compact&quot;:[[&quot;day&quot;,-30],[&quot;day&quot;,0]],&quot;CreatedField&quot;:&quot;&#39;EarliestStartTime_Week&#39;&quot;,&quot;CreatedProjection&quot;:&quot;created[&#39;EarliestStartTime_Week&#39;]&quot;,&quot;Current&quot;:[&quot;30 days ago&quot;,&quot;current day&quot;],&quot;FullGroup&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Week&quot;,&quot;GenerateClosedDate&quot;:&quot;&#39;ClosedDate_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;ClosedDate_Week&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Week&#39;&quot;,&quot;GenerateCoGroupDate&quot;:&quot;created[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+created[&#39;EarliestStartTime_Week&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Week&#39;&quot;,&quot;GenerateEarliestStartTime&quot;:&quot;&#39;EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;EarliestStartTime_Week&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Week&#39;&quot;,&quot;cogroupGenerateEarliestStartTime&quot;:&quot;q[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+q[&#39;EarliestStartTime_Week&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Week&#39;&quot;,&quot;SAGenerateEarliestStartTime&quot;:&quot;&#39;SA.EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;SA.EarliestStartTime_Week&#39; as &#39;SA.EarliestStartTime_Year~~~SA.EarliestStartTime_Week&#39;&quot;,&quot;GroupbyClosedDate&quot;:&quot;(&#39;ClosedDate_Year&#39;,&#39;ClosedDate_Week&#39;)&quot;,&quot;GroupbyEarliestStartTime&quot;:&quot;(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Week&#39;)&quot;,&quot;SAGroupbyEarliestStartTime&quot;:&quot;(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Week&#39;)&quot;,&quot;Grouping&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Week&quot;,&quot;LastPeriodCompare&quot;:[&quot;30 days ago - 30 days&quot;,&quot;current day - 30 days&quot;],&quot;LastYearCompare&quot;:[&quot;30 days ago - 1 year&quot;,&quot;current day - 1 year&quot;],&quot;Measure&quot;:[&quot;Backlog&quot;,&quot;Count&quot;,null,{&quot;display&quot;:&quot;Backlog Count at Start of Week&quot;}],&quot;compactGroup&quot;:[&quot;EarliestStartTime_Year&quot;,&quot;EarliestStartTime_Week&quot;],&quot;icompactGroup&quot;:[&quot;i[EarliestStartTime_Year]&quot;,&quot;i[EarliestStartTime_Week]&quot;],&quot;SAcompactGroup&quot;:[&quot;SA.EarliestStartTime_Year&quot;,&quot;SA.EarliestStartTime_Week&quot;],&quot;filter&quot;:&quot;month&quot;,&quot;queryCogroupNew&quot;:&quot;first(ThisYear[&#39;EarliestStartTime_Year&#39;])+&#92;&quot;~~~&#92;&quot;+ThisYear[&#39;EarliestStartTime_Week&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Week&#39;&quot;,&quot;trendProjection&quot;:&quot;toString(now(), &#92;&quot;yyyy~~~MM&#92;&quot;)+&#92;&quot;~~~&#92;&quot;+toString(now(), &#92;&quot;99&#92;&quot;)&quot;}",
+          "{&quot;display&quot;:&quot;Last 180 Days&quot;,&quot;text_display&quot;:&quot;vs previous 180 days&quot;,&quot;Backlog30DayClose&quot;:&quot;[&#92;&quot;current day - 240 days&#92;&quot;..&#92;&quot;current day - 180 days&#92;&quot;]&quot;,&quot;BacklogCompare&quot;:[&quot;current day - 180 days&quot;,&quot;current day&quot;],&quot;BacklogLabel&quot;:&quot;Backlog Last 180 Days&quot;,&quot;ClosedField&quot;:&quot;&#39;ClosedDate_Month&#39;&quot;,&quot;CoGroup&quot;:&quot;(&#39;EarliestStartTime_Month&#39;)&quot;,&quot;Compact&quot;:[[&quot;day&quot;,-180],[&quot;day&quot;,0]],&quot;CreatedField&quot;:&quot;&#39;EarliestStartTime_Month&#39;&quot;,&quot;CreatedProjection&quot;:&quot;created[&#39;EarliestStartTime_Month&#39;]&quot;,&quot;Current&quot;:[&quot;180 days ago&quot;,&quot;current day&quot;],&quot;FullGroup&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Month&quot;,&quot;GenerateClosedDate&quot;:&quot;&#39;ClosedDate_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;ClosedDate_Month&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;GenerateCoGroupDate&quot;:&quot;created[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+created[&#39;EarliestStartTime_Month&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;GenerateEarliestStartTime&quot;:&quot;&#39;EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;EarliestStartTime_Month&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;cogroupGenerateEarliestStartTime&quot;:&quot;q[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+q[&#39;EarliestStartTime_Month&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;SAGenerateEarliestStartTime&quot;:&quot;&#39;SA.EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;SA.EarliestStartTime_Month&#39; as &#39;SA.EarliestStartTime_Year~~~SA.EarliestStartTime_Month&#39;&quot;,&quot;GroupbyClosedDate&quot;:&quot;(&#39;ClosedDate_Year&#39;,&#39;ClosedDate_Month&#39;)&quot;,&quot;GroupbyEarliestStartTime&quot;:&quot;(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;)&quot;,&quot;SAGroupbyEarliestStartTime&quot;:&quot;(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Month&#39;)&quot;,&quot;Grouping&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Month&quot;,&quot;LastPeriodCompare&quot;:[&quot;180 days ago - 180 days&quot;,&quot;current day - 180 days&quot;],&quot;LastYearCompare&quot;:[&quot;180 days ago - 1 year&quot;,&quot;current day - 1 year&quot;],&quot;Measure&quot;:[&quot;Backlog&quot;,&quot;Count&quot;,null,{&quot;display&quot;:&quot;Backlog Count at Start of Month&quot;}],&quot;compactGroup&quot;:[&quot;EarliestStartTime_Year&quot;,&quot;EarliestStartTime_Month&quot;],&quot;icompactGroup&quot;:[&quot;i[EarliestStartTime_Year]&quot;,&quot;i[EarliestStartTime_Month]&quot;],&quot;SAcompactGroup&quot;:[&quot;SA.EarliestStartTime_Year&quot;,&quot;SA.EarliestStartTime_Month&quot;],&quot;filter&quot;:&quot;month&quot;,&quot;queryCogroupNew&quot;:&quot;first(ThisYear[&#39;EarliestStartTime_Year&#39;])+&#92;&quot;~~~&#92;&quot;+ThisYear[&#39;EarliestStartTime_Month&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;trendProjection&quot;:&quot;toString(now(), &#92;&quot;yyyy&#92;&quot;)+&#92;&quot;~~~&#92;&quot;+toString(now(), &#92;&quot;99&#92;&quot;)&quot;}",
+          "{&quot;display&quot;:&quot;Last 2 years&quot;,&quot;text_display&quot;:&quot;vs previous 2 years&quot;,&quot;Backlog30DayClose&quot;:&quot;[&#92;&quot;current day - 690 days&#92;&quot;..&#92;&quot;current day - 2 years&#92;&quot;]&quot;,&quot;BacklogCompare&quot;:[&quot;current day - 2 years&quot;,&quot;current day&quot;],&quot;BacklogLabel&quot;:&quot;Backlog Last 2 years&quot;,&quot;ClosedField&quot;:&quot;&#39;ClosedDate_Month&#39;&quot;,&quot;CoGroup&quot;:&quot;(&#39;EarliestStartTime_Month&#39;)&quot;,&quot;Compact&quot;:[[&quot;day&quot;,-720],[&quot;day&quot;,0]],&quot;CreatedField&quot;:&quot;&#39;EarliestStartTime_Month&#39;&quot;,&quot;CreatedProjection&quot;:&quot;created[&#39;EarliestStartTime_Month&#39;]&quot;,&quot;Current&quot;:[&quot;2 years ago&quot;,&quot;current day&quot;],&quot;FullGroup&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Month&quot;,&quot;GenerateClosedDate&quot;:&quot;&#39;ClosedDate_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;ClosedDate_Month&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;GenerateCoGroupDate&quot;:&quot;created[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+created[&#39;EarliestStartTime_Month&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;GenerateEarliestStartTime&quot;:&quot;&#39;EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;EarliestStartTime_Month&#39; as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;cogroupGenerateEarliestStartTime&quot;:&quot;q[&#39;EarliestStartTime_Year&#39;]+&#92;&quot;~~~&#92;&quot;+q[&#39;EarliestStartTime_Month&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;SAGenerateEarliestStartTime&quot;:&quot;&#39;SA.EarliestStartTime_Year&#39;+&#92;&quot;~~~&#92;&quot;+&#39;SA.EarliestStartTime_Month&#39; as &#39;SA.EarliestStartTime_Year~~~SA.EarliestStartTime_Month&#39;&quot;,&quot;GroupbyClosedDate&quot;:&quot;(&#39;ClosedDate_Year&#39;,&#39;ClosedDate_Month&#39;)&quot;,&quot;GroupbyEarliestStartTime&quot;:&quot;(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;)&quot;,&quot;SAGroupbyEarliestStartTime&quot;:&quot;(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Month&#39;)&quot;,&quot;Grouping&quot;:&quot;EarliestStartTime_Year~~~EarliestStartTime_Month&quot;,&quot;LastPeriodCompare&quot;:[&quot;2 years ago - 2 years&quot;,&quot;current day - 2 years&quot;],&quot;LastYearCompare&quot;:[&quot;2 years ago - 4 years&quot;,&quot;current day - 2 years&quot;],&quot;Measure&quot;:[&quot;Backlog&quot;,&quot;Count&quot;,null,{&quot;display&quot;:&quot;Backlog Count at Start of Month&quot;}],&quot;compactGroup&quot;:[&quot;EarliestStartTime_Year&quot;,&quot;EarliestStartTime_Month&quot;],&quot;icompactGroup&quot;:[&quot;i[EarliestStartTime_Year]&quot;,&quot;i[EarliestStartTime_Month]&quot;],&quot;SAcompactGroup&quot;:[&quot;SA.EarliestStartTime_Year&quot;,&quot;SA.EarliestStartTime_Month&quot;],&quot;filter&quot;:&quot;month&quot;,&quot;queryCogroupNew&quot;:&quot;first(ThisYear[&#39;EarliestStartTime_Year&#39;])+&#92;&quot;~~~&#92;&quot;+ThisYear[&#39;EarliestStartTime_Month&#39;] as &#39;EarliestStartTime_Year~~~EarliestStartTime_Month&#39;&quot;,&quot;trendProjection&quot;:&quot;toString(now(), &#92;&quot;yyyy&#92;&quot;)+&#92;&quot;~~~&#92;&quot;+toString(now(), &#92;&quot;99&#92;&quot;)&quot;}"
+        ]
+      },
+      "SLAViolations_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "SLAViolations",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by &#39;ArrivalWindowEndTime_sec_epoch&#39; &gt; 0; q = filter q by &#39;ActualStartTime_sec_epoch&#39; &gt; 0; curr = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; curr = group curr by &#39;Id&#39;; curr = foreach curr generate sum(&#39;ActualStartTime_sec_epoch&#39;) as &#39;ActualStartTime_sec_epoch&#39;, sum(&#39;ArrivalWindowEndTime_sec_epoch&#39;) as &#39;ArrivalWindowEndTime_sec_epoch&#39;, &#39;Id&#39; as &#39;Id&#39;, first(&#39;AssignedResource.User.User.Name&#39;) as &#39;AssignedResource.User.User.Name&#39;;  curr = filter curr by &#39;ActualStartTime_sec_epoch&#39; &gt; &#39;ArrivalWindowEndTime_sec_epoch&#39;; curr = group curr by all; curr = foreach curr generate count() / unique(&#39;AssignedResource.User.User.Name&#39;) as &#39;avg_sla_violations&#39;;&quot;,&quot;measures&quot;:[[&quot;avg&quot;,&quot;sla_violations&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "all_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; w = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; r = filter w by &#39;StatusCategory&#39; == &#92;&quot;CannotComplete&#92;&quot;; prev = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;LastPeriodCompare&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; prev_inc = filter prev by &#39;StatusCategory&#39; == &#92;&quot;CannotComplete&#92;&quot;;  g = group w by all left, r by all, prev by all left, prev_inc by all; z = foreach g generate 1-(count(r) / count(w))*100 as &#39;sum_first_time_fix&#39;, 1-count(prev_inc) / count(prev)*100 as &#39;sum_prev_first_time_fix&#39;, 100*(((1-(count(r) / count(w)))*100)-((1-(count(prev_inc) / count(prev)))*100)) / ((1-(count(prev_inc) / count(prev)))*100) as &#39;perc_first_time_fix&#39;, (case when 100*(((1-(count(r) / count(w)))*100)-((1-(count(prev_inc) / count(prev)))*100)) / ((1-(count(prev_inc) / count(prev)))*100) &lt; 0 then &#92;&quot;#D14062&#92;&quot; when 100*(((1-(count(r) / count(w)))*100)-((1-(count(prev_inc) / count(prev)))*100)) / ((1-(count(prev_inc) / count(prev)))*100) &gt; 0 then &#92;&quot;#0BA976&#92;&quot; else &#92;&quot;#54698D&#92;&quot; end) as &#39;color&#39;, (case when 100*(((1-(count(r) / count(w)))*100)-((1-(count(prev_inc) / count(prev)))*100)) / ((1-(count(prev_inc) / count(prev)))*100) &lt; 0 then &#92;&quot;#D14062&#92;&quot; when 100*(((1-(count(r) / count(w)))*100)-((1-(count(prev_inc) / count(prev)))*100)) / ((1-(count(prev_inc) / count(prev)))*100) &gt; 0 then &#92;&quot;#0BA976&#92;&quot; else &#92;&quot;#54698D&#92;&quot; end) as &#39;left_color&#39;;&quot;,&quot;measures&quot;:[[&quot;perc&quot;,&quot;first_time_fix&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "ActualDuration_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;avg&quot;,&quot;ActualDuration&quot;]],&quot;filters&quot;:[[&quot;EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;],[&quot;ActualDuration&quot;,[[0]],&quot;&gt;&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "all_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBgCAK",
+            "label": "AssignedResource",
+            "name": "AssignedResource",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBgCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;AssignedResource&#92;&quot;; q = filter q by &#39;ActualTravelTime&#39; &gt; 0; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.result, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.result, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;User.User.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.result, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.result, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_1.result, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.result, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; w = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Month&#39;,&#39;SA.EarliestStartTime_Day&#39;)&#92;&quot;)}}; p = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;LastPeriodCompare&#92;&quot;).asDateRange(&#92;&quot;date(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Month&#39;,&#39;SA.EarliestStartTime_Day&#39;)&#92;&quot;)}}; g = group w by all, p by all; z = foreach g generate 100*(avg(w[&#39;ActualTravelTime&#39;]) - avg(p[&#39;ActualTravelTime&#39;])) / avg(p[&#39;ActualTravelTime&#39;]) as &#39;perc_actual_travel_time_compare&#39;, (case when 100*(avg(w[&#39;ActualTravelTime&#39;]) - avg(p[&#39;ActualTravelTime&#39;])) / avg(p[&#39;ActualTravelTime&#39;]) &lt; 0 then &#92;&quot;#0BA976&#92;&quot; when 100*(avg(w[&#39;ActualTravelTime&#39;]) - avg(p[&#39;ActualTravelTime&#39;])) / avg(p[&#39;ActualTravelTime&#39;]) &gt; 0 then &#92;&quot;#D14062&#92;&quot; else &#92;&quot;#54698D&#92;&quot; end) as &#39;color&#39;;&quot;,&quot;measures&quot;:[[&quot;perc&quot;,&quot;actual_travel_time_compare&quot;]],&quot;filters&quot;:[[&quot;SA.EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "ParentRecordId_Prior_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;ParentRecordId.Priority&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "ViolationsPerAgent_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "ViolationsPerAgent",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = group q by &#39;Id&#39;; q = foreach q generate sum(&#39;ActualEndTime_sec_epoch&#39;) as &#39;ActualEndTime_sec_epoch&#39;, sum(&#39;DueDate_sec_epoch&#39;) as &#39;DueDate_sec_epoch&#39;, &#39;Id&#39; as &#39;Id&#39;, first(&#39;AssignedResource.User.User.Name&#39;) as &#39;AssignedResource.User.User.Name&#39;; q = filter q by &#39;ActualEndTime_sec_epoch&#39; &gt; &#39;DueDate_sec_epoch&#39;; q = group q by all; q = foreach q generate count() / unique(&#39;AssignedResource.User.User.Name&#39;) as &#39;avg_violations_per_agent&#39;;&quot;,&quot;measures&quot;:[[&quot;avg&quot;,&quot;violations_per_agent&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "SLAViolationsCompare_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "SLAViolationsCompare",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by &#39;ArrivalWindowEndTime_sec_epoch&#39; &gt; 0; q = filter q by &#39;ActualStartTime_sec_epoch&#39; &gt; 0; curr = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; curr = group curr by &#39;Id&#39;; curr = foreach curr generate sum(&#39;ActualStartTime_sec_epoch&#39;) as &#39;ActualStartTime_sec_epoch&#39;, sum(&#39;ArrivalWindowEndTime_sec_epoch&#39;) as &#39;ArrivalWindowEndTime_sec_epoch&#39;, &#39;Id&#39; as &#39;Id&#39;, first(&#39;AssignedResource.User.User.Name&#39;) as &#39;AssignedResource.User.User.Name&#39;;  curr = filter curr by &#39;ActualStartTime_sec_epoch&#39; &gt; &#39;ArrivalWindowEndTime_sec_epoch&#39;; curr = group curr by all; curr = foreach curr generate count() / unique(&#39;AssignedResource.User.User.Name&#39;) as &#39;curr_sla_violations&#39;; prev = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;LastPeriodCompare&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; prev = group prev by &#39;Id&#39;; prev = foreach prev generate sum(&#39;ActualStartTime_sec_epoch&#39;) as &#39;ActualStartTime_sec_epoch&#39;, sum(&#39;ArrivalWindowEndTime_sec_epoch&#39;) as &#39;ArrivalWindowEndTime_sec_epoch&#39;, &#39;Id&#39; as &#39;Id&#39;, first(&#39;AssignedResource.User.User.Name&#39;) as &#39;AssignedResource.User.User.Name&#39;;  prev = filter prev by &#39;ActualStartTime_sec_epoch&#39; &gt; &#39;ArrivalWindowEndTime_sec_epoch&#39;; prev = group prev by all; prev = foreach prev generate count() / unique(&#39;AssignedResource.User.User.Name&#39;) as prev_sla_violations; u = union curr,prev; u = group u by all; u = foreach u generate 100*(sum(&#39;curr_sla_violations&#39;)-sum(&#39;prev_sla_violations&#39;) / sum(&#39;prev_sla_violations&#39;)) as perc_sla_violations;&quot;,&quot;measures&quot;:[[&quot;perc&quot;,&quot;sla_violations&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "ParentRecordId_Prior_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;ParentRecordId.Priority&quot;],&quot;filters&quot;:[[&quot;EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "CreatedDate_Year_Cre_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;avg&quot;,&quot;ActualDuration&quot;]],&quot;groups&quot;:[&quot;{{cell(Time_Selection.selection, 0, &#92;&quot;compactGroup&#92;&quot;).asObject()}}&quot;],&quot;filters&quot;:[[&quot;EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;],[&quot;ActualDuration&quot;,[[0]],&quot;&gt;&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "vbar"
+        }
+      },
+      "ServiceTerritoryId_N_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;ServiceTerritoryId.Name&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Status_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;StatusCategory&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Status_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;StatusCategory&quot;],&quot;filters&quot;:[[&quot;EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "FirstTimeFix_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "FirstTimeFix",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;StatusCategory&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; i = filter q by &#39;StatusCategory&#39; == &#92;&quot;CannotComplete&#92;&quot;; g = group q by all left, i by all; g = foreach g generate (1-(count(i)/count(q)))*100 as sum_first_time_fix;&quot;,&quot;measures&quot;:[[&quot;sum&quot;,&quot;first_time_fix&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "SLA_Sort_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "label": "SLA_Sort",
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;Descending&quot;]}",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Ascending&quot;,&quot;value&quot;:&quot;asc&quot;,&quot;compact_value&quot;:true}",
+          "{&quot;display&quot;:&quot;Descending&quot;,&quot;value&quot;:&quot;desc&quot;,&quot;compact_value&quot;:false}"
+        ]
+      },
+      "CreatedDate_Year_Cre_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBgCAK",
+            "label": "AssignedResource",
+            "name": "AssignedResource",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBgCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;AssignedResource&#92;&quot;; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.result, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.result, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;User.User.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.result, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.result, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_1.result, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.result, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Month&#39;,&#39;SA.EarliestStartTime_Day&#39;)&#92;&quot;)}}; q = filter q by &#39;ActualTravelTime&#39; &gt; 0; q = group q by {{cell(Time_Selection.selection, 0, &#92;&quot;SAGroupbyEarliestStartTime&#92;&quot;).asObject()}}; z = foreach q generate avg(&#39;ActualTravelTime&#39;) as &#39;avg_ActualTravelTime&#39;, {{cell(Time_Selection.selection, 0, &#92;&quot;SAGenerateEarliestStartTime&#92;&quot;).asObject()}};&quot;,&quot;measures&quot;:[[&quot;avg&quot;,&quot;ActualTravelTime&quot;]],&quot;groups&quot;:[&quot;{{cell(Time_Selection.selection, 0, &#92;&quot;SAcompactGroup&#92;&quot;).asObject()}}&quot;],&quot;filters&quot;:[[&quot;SA.EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "time"
+        }
+      },
+      "Avg_Travel_Time_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBgCAK",
+            "label": "AssignedResource",
+            "name": "AssignedResource",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBgCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Avg_Travel_Time",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;AssignedResource&#92;&quot;; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryId_N_2.result, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.result, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;User.User.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.result, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.result, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;SA.ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(Status_1.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_1.result, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.selection, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{column(Status_3.result, [&#92;&quot;StatusCategory&#92;&quot;]).asEquality(&#92;&quot;SA.StatusCategory&#92;&quot;)}}; q = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;SA.EarliestStartTime_Year&#39;,&#39;SA.EarliestStartTime_Month&#39;,&#39;SA.EarliestStartTime_Day&#39;)&#92;&quot;)}}; q = filter q by &#39;ActualTravelTime&#39; &gt; 0; q = group q by all; z = foreach q generate avg(&#39;ActualTravelTime&#39;) as &#39;avg_ActualTravelTime&#39;;&quot;,&quot;measures&quot;:[[&quot;avg&quot;,&quot;ActualTravelTime&quot;]],&quot;filters&quot;:[[&quot;SA.EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "ParentRecordId_Accou_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;ParentRecordId.AccountId.Name&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": false,
+        "visualizationParameters": {}
+      },
+      "Mean_Time_to_Repair__1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBfCAK",
+            "label": "ServiceAppointment",
+            "name": "ServiceAppointment",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBfCAK"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Mean_Time_to_Repair_compare",
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q=load &#92;&quot;ServiceAppointment&#92;&quot;; q = filter q by {{column(WO_Scatter_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by &#39;ActualDuration&#39; &gt; 0; q = filter q by {{column(ServiceTerritoryId_N_2.selection, [&#92;&quot;ServiceTerritoryId.Name&#92;&quot;]).asEquality(&#92;&quot;ServiceTerritoryId.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Accou_2.selection, [&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.AccountId.Name&#92;&quot;)}}; q = filter q by {{column(ServiceTerritoryMemb_1.selection, [&#92;&quot;AssignedResource.User.User.Name&#92;&quot;]).asEquality(&#92;&quot;AssignedResource.User.User.Name&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_2.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; q = filter q by {{column(ParentRecordId_Prior_1.selection, [&#92;&quot;ParentRecordId.Priority&#92;&quot;]).asEquality(&#92;&quot;ParentRecordId.Priority&#92;&quot;)}}; curr = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;Current&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; prev = filter q by {{cell(Time_Selection.selection, 0, &#92;&quot;LastPeriodCompare&#92;&quot;).asDateRange(&#92;&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&#92;&quot;)}}; g = group curr by all, prev by all; z = foreach g generate 100*((avg(curr[&#39;ActualDuration&#39;])-avg(prev[&#39;ActualDuration&#39;]))/avg(prev[&#39;ActualDuration&#39;])) as &#39;perc_mean_time_to_repair&#39;, (case when 100*((avg(curr[&#39;ActualDuration&#39;])-avg(prev[&#39;ActualDuration&#39;]))/avg(prev[&#39;ActualDuration&#39;])) &lt; 0 then &#92;&quot;#0BA976&#92;&quot; when 100*(avg(curr[&#39;ActualDuration&#39;])-avg(prev[&#39;ActualDuration&#39;]))/avg(prev[&#39;ActualDuration&#39;]) &gt; 0 then &#92;&quot;#D14062&#92;&quot; else &#92;&quot;#54698D&#92;&quot; end) as &#39;color&#39;;&quot;,&quot;measures&quot;:[[&quot;perc&quot;,&quot;mean_time_to_repair&quot;]],&quot;filters&quot;:[[&quot;EarliestStartTime&quot;,&quot;{{column(Time_Selection.selection, [&#92;&quot;Compact&#92;&quot;]).asObject()}}&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "visualizationType": "hbar"
+        }
+      },
+      "lens_2": {
+        "broadcastFacet": true,
+        "groups": [],
+        "numbers": [],
+        "query": "q = load &quot;ServiceAppointment&quot;;  q = filter q by {{cell(Time_Selection.selection, 0, &quot;Current&quot;).asDateRange(&quot;date(&#39;EarliestStartTime_Year&#39;,&#39;EarliestStartTime_Month&#39;,&#39;EarliestStartTime_Day&#39;)&quot;)}}; q = foreach q generate &#39;AppointmentNumber&#39; as &#39;AppointmentNumber&#39;,  first(&#39;ParentRecordId.WorkOrderNumber&#39;) as &#39;ParentRecordId.WorkOrderNumber&#39;, first(&#39;ParentRecordId.WorkTypeId.Name&#39;) as &#39;ParentRecordId.WorkTypeId.Name&#39;, first(&#39;AssignedResource.User.User.Name&#39;) as &#39;AssignedResource.User.User.Name&#39;, sum(&#39;DurationInMinutes&#39;) as &#39;DurationInMinutes&#39;, sum(&#39;ActualDuration&#39;) as &#39;ActualDuration&#39;, first(&#39;ParentRecordId.AccountId.Name&#39;) as &#39;ParentRecordId.AccountId.Name&#39;, first(&#39;ServiceTerritoryId.Name&#39;) as &#39;ServiceTerritoryId.Name&#39;, first(&#39;ParentRecordId.Priority&#39;) as &#39;ParentRecordId.Priority&#39;, first(&#39;StatusCategory&#39;) as &#39;StatusCategory&#39;, first(&#39;DueDate&#39;) as &#39;DueDate&#39;, first(&#39;ProductConsumed.ProductName&#39;) as &#39;ProductConsumed.ProductName&#39;, first(&#39;ParentRecordId.CaseId&#39;) as &#39;ParentRecordId.CaseId&#39;; q = order q by &#39;AppointmentNumber&#39; asc;q = limit q 100;",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": false
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "container_19": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_18": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_17": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_16": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_15": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_14": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_13": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "number_Mean_Time_to_Repair_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "perc_mean_time_to_repair",
+          "numberColor": "#ffffff",
+          "numberSize": 12,
+          "showActionMenu": true,
+          "step": "Mean_Time_to_Repair__1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "link_Work_Order_Overview": {
+        "parameters": {
+          "destination": "0FK1N000000GqpbWAC",
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": true,
+          "text": "Work Order Overview",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "container_1": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_2": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "number_FirstTimeFix_11": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "sum_first_time_fix",
+          "numberColor": "#FFFFFF",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "FirstTimeFix_1",
+          "textAlignment": "left",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "container_3": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_4": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "chart_ViolationsChart_1": {
+        "parameters": {
+          "autoFitMode": "keepLabels",
+          "totalValue": "computeTotal",
+          "showValues": false,
+          "legend": {
+            "showHeader": false,
+            "show": true,
+            "customSize": "auto",
+            "position": "bottom-center",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "visualizationType": "stackhbar",
+          "exploreLink": true,
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "normalize": false,
+          "step": "ViolationsChart_1",
+          "theme": "light",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round",
+                "parameters": {}
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "container_5": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_6": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_23": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_7": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_8": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_21": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_9": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_20": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "listselector_Status_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": false,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Status_1",
+          "title": "Status"
+        },
+        "type": "listselector"
+      },
+      "text_First_Time_Fix": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "First Time Fix",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "text__Work_Orders": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "# Work Orders",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "chart_ParentRecordId_Prior_1": {
+        "parameters": {
+          "centerText": "",
+          "totalValue": "computeTotal",
+          "legend": {
+            "showHeader": false,
+            "show": true,
+            "customSize": 40,
+            "position": "right-top",
+            "inside": false
+          },
+          "showMeasureTitle": false,
+          "visualizationType": "pie",
+          "exploreLink": true,
+          "title": {
+            "label": "Work Order Priority",
+            "align": "left",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "textColor": "#FFFFFF",
+          "inner": 70,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "centerValueType": "none",
+          "valueType": "compactNumber",
+          "step": "ParentRecordId_Prior_1",
+          "theme": "dark"
+        },
+        "type": "chart"
+      },
+      "number_all_31": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "perc_first_time_fix",
+          "numberColor": "#FFFFFF",
+          "numberSize": 16,
+          "showActionMenu": true,
+          "step": "all_3",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "table_lens_21": {
+        "parameters": {
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": true,
+          "maxColumnWidth": 300,
+          "minColumnWidth": 40,
+          "mode": "variable",
+          "showActionMenu": true,
+          "step": "lens_2"
+        },
+        "type": "table"
+      },
+      "listselector_ServiceTerritoryId_N_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": false,
+          "measureField": "none",
+          "showActionMenu": false,
+          "step": "ServiceTerritoryId_N_2",
+          "title": "Territory"
+        },
+        "type": "listselector"
+      },
+      "text_Avg_Travel_Time_min_": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "Avg Travel Time (min)",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "pillbox_Sort_1": {
+        "parameters": {
+          "compact": false,
+          "displayTemplate": "[]",
+          "exploreLink": false,
+          "showActionMenu": true,
+          "step": "Sort_1"
+        },
+        "type": "pillbox"
+      },
+      "chart_CreatedDate_Year_Cre_2": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "showPoints": false,
+          "legend": {
+            "showHeader": false,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": true
+          },
+          "axisMode": "multi",
+          "visualizationType": "time",
+          "missingValue": "connect",
+          "exploreLink": false,
+          "timeAxis": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": "Earliest Start Permitted"
+          },
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": false,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "fillArea": true,
+          "showActionMenu": true,
+          "showZero": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "CreatedDate_Year_Cre_2",
+          "theme": "light"
+        },
+        "type": "chart"
+      },
+      "chart_CreatedDate_Year_Cre_1": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "showPoints": false,
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "visualizationType": "time",
+          "missingValue": "connect",
+          "exploreLink": true,
+          "timeAxis": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": "Earliest Start Permitted"
+          },
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "fillArea": true,
+          "showActionMenu": true,
+          "showZero": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "CreatedDate_Year_Cre_1",
+          "theme": "light"
+        },
+        "type": "chart"
+      },
+      "number_SLAViolations_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "numberColor": "#FFFFFF",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "SLAViolations_1",
+          "textAlignment": "left",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "table_lens_2": {
+        "parameters": {
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": true,
+          "maxColumnWidth": 300,
+          "minColumnWidth": 40,
+          "mode": "variable",
+          "showActionMenu": true,
+          "step": "lens_2"
+        },
+        "type": "table"
+      },
+      "listselector_ParentRecordId_Accou_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": false,
+          "measureField": "none",
+          "showActionMenu": false,
+          "step": "ParentRecordId_Accou_2",
+          "title": "Account"
+        },
+        "type": "listselector"
+      },
+      "container_12": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_11": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "chart_FirstTimeFixChart_21": {
+        "parameters": {
+          "autoFitMode": "keepLabels",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "visualizationType": "hbar",
+          "exploreLink": false,
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "binValues": false,
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "theme": "wave",
+          "step": "FirstTimeFixChart_2",
+          "dimensionAxis": {
+            "showTitle": true,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round",
+                "parameters": {}
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "container_10": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "chart_Status_3": {
+        "parameters": {
+          "centerText": "",
+          "totalValue": "computeTotal",
+          "legend": {
+            "showHeader": false,
+            "show": true,
+            "customSize": 40,
+            "position": "right-top",
+            "inside": false
+          },
+          "showMeasureTitle": false,
+          "visualizationType": "pie",
+          "exploreLink": true,
+          "title": {
+            "label": "Work Order Status",
+            "align": "left",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "textColor": "#FFFFFF",
+          "inner": 70,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "centerValueType": "none",
+          "valueType": "compactNumber",
+          "step": "Status_3",
+          "theme": "dark"
+        },
+        "type": "chart"
+      },
+      "number_Avg_Travel_Time_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "measureField": "avg_ActualTravelTime",
+          "numberColor": "#335779",
+          "numberSize": 16,
+          "showActionMenu": true,
+          "step": "Avg_Travel_Time_2",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_ViolationsCompare_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "numberColor": "#FFFFFF",
+          "numberSize": 16,
+          "showActionMenu": true,
+          "step": "ViolationsCompare_1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_all_3": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "perc_first_time_fix",
+          "numberColor": "#FFFFFF",
+          "numberSize": 12,
+          "showActionMenu": true,
+          "step": "all_3",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_all_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "perc_actual_travel_time_compare",
+          "numberColor": "#FFFFFF",
+          "numberSize": 12,
+          "showActionMenu": true,
+          "step": "all_2",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "number_ActualDuration_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "avg_ActualDuration",
+          "numberColor": "#335779",
+          "numberSize": 18,
+          "showActionMenu": true,
+          "step": "ActualDuration_1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 18
+        },
+        "type": "number"
+      },
+      "pillbox_SLA_Sort_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "showActionMenu": true,
+          "step": "SLA_Sort_1"
+        },
+        "type": "pillbox"
+      },
+      "chart_FirstTimeFixChart_1": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "showPoints": false,
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "visualizationType": "time",
+          "missingValue": "connect",
+          "exploreLink": false,
+          "timeAxis": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": "Earliest Start Permitted"
+          },
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "fillArea": true,
+          "showActionMenu": true,
+          "showZero": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "FirstTimeFixChart_1",
+          "theme": "light"
+        },
+        "type": "chart"
+      },
+      "text_Mean_Time_to_Repair_min_": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "Mean Time to Repair (min)",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "chart_ParentRecordId_Creat_1": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "showPoints": false,
+          "legend": {
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "visualizationType": "time",
+          "missingValue": "connect",
+          "timeAxis": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": "Earliest Start Permitted"
+          },
+          "exploreLink": true,
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "textColor": "#FFFFFF",
+          "totalLabel": "",
+          "fillArea": true,
+          "showActionMenu": true,
+          "showZero": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": false,
+            "title": "#WO",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "ParentRecordId_Creat_1",
+          "theme": "dark"
+        },
+        "type": "chart"
+      },
+      "text_Technician_Performance": {
+        "parameters": {
+          "fontSize": 12,
+          "showActionMenu": true,
+          "text": "Technician Performance",
+          "textAlignment": "center",
+          "textColor": "rgb(99, 79, 149)"
+        },
+        "type": "text"
+      },
+      "chart_WO_Scatter_1": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "visualizationType": "scatter",
+          "exploreLink": false,
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "radiusRatio": 5,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "x": {
+            "sqrtScale": false,
+            "showZero": true,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "y": {
+            "sqrtScale": false,
+            "showZero": true,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "WO_Scatter_1",
+          "theme": "dark"
+        },
+        "type": "chart"
+      },
+      "number_WO_prev_compare_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "perc_Percent",
+          "numberColor": "#FFFFFF",
+          "numberSize": 16,
+          "showActionMenu": true,
+          "step": "WO_prev_compare_1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#FFFFFF",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "listselector_ServiceTerritoryMemb_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": false,
+          "measureField": "none",
+          "showActionMenu": false,
+          "step": "ServiceTerritoryMemb_1",
+          "title": "Resource"
+        },
+        "type": "listselector"
+      },
+      "number_SLAViolationsCompare_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "perc_sla_violations",
+          "numberColor": "#FFFFFF",
+          "numberSize": 16,
+          "showActionMenu": true,
+          "step": "SLAViolationsCompare_1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "chart_SLAViolationsChart_1": {
+        "parameters": {
+          "autoFitMode": "keepLabels",
+          "totalValue": "computeTotal",
+          "showValues": false,
+          "legend": {
+            "showHeader": false,
+            "show": true,
+            "customSize": "auto",
+            "position": "bottom-center",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "visualizationType": "stackhbar",
+          "exploreLink": false,
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "normalize": false,
+          "step": "SLAViolationsChart_1",
+          "theme": "light",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round",
+                "parameters": {}
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "chart_FirstTimeFixChart_2": {
+        "parameters": {
+          "autoFitMode": "keepLabels",
+          "totalValue": "computeTotal",
+          "showValues": false,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": false,
+            "show": true,
+            "customSize": "auto",
+            "position": "bottom-center",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "visualizationType": "hbar",
+          "exploreLink": false,
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "parameters": {},
+            "chartsPerLine": 4
+          },
+          "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "step": "FirstTimeFixChart_2",
+          "theme": "light",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round",
+                "parameters": {}
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "text_Metrics_compared_to_prior_period": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "Metrics compared to prior period",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
+        },
+        "type": "text"
+      },
+      "text_Due_Date_Violations_Technician": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "Due Date Violations / Technician",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "text__Metrics_compared_to_prior_period": {
+        "parameters": {
+          "fontSize": 12,
+          "showActionMenu": true,
+          "text": "* Metrics compared to prior period",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
+        },
+        "type": "text"
+      },
+      "listselector_Time_Selection": {
+        "parameters": {
+          "compact": false,
+          "expanded": true,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "Time_Selection",
+          "title": "Date Range"
+        },
+        "type": "listselector"
+      },
+      "text_Work_Order_Volume": {
+        "parameters": {
+          "fontSize": 16,
+          "showActionMenu": true,
+          "text": "Work Order Volume",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "number_ViolationsPerAgent_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "numberColor": "#FFFFFF",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "ViolationsPerAgent_1",
+          "textAlignment": "left",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "container_24": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "number_ParentRecordId_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "count",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "ParentRecordId_1",
+          "textAlignment": "left",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 10
+        },
+        "type": "number"
+      },
+      "text_Technician_Performance1": {
+        "parameters": {
+          "fontSize": 24,
+          "showActionMenu": true,
+          "text": "Technician Performance",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "text_Avg_SLA_Violations_Technician": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "Avg SLA Violations / Technician",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "text_Work_Order_Detail_Table": {
+        "parameters": {
+          "fontSize": 16,
+          "showActionMenu": true,
+          "text": "Work Order Detail Table",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "number_FirstTimeFix_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "measureField": "sum_first_time_fix",
+          "numberColor": "#335779",
+          "numberSize": 18,
+          "showActionMenu": true,
+          "step": "FirstTimeFix_1",
+          "textAlignment": "center",
+          "title": "",
+          "titleColor": "#335779",
+          "titleSize": 16
+        },
+        "type": "number"
+      },
+      "listselector_ParentRecordId_Prior_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": false,
+          "measureField": "none",
+          "showActionMenu": false,
+          "step": "ParentRecordId_Prior_2",
+          "title": "Priority"
+        },
+        "type": "listselector"
+      },
+      "text_First_Time_Fix_Rate": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "First Time Fix Rate",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v44.0/wave/dashboards/0FKf2000000msCUGAY"
+}

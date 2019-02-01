@@ -1,0 +1,698 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://apmsandbox.my.salesforce.com/analytics/wave/dashboard?assetId=0FKf2000000msCXGAY&orgId=00Df2000001LxAD&loginHost=na53.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "005f20000090QinAAE",
+    "name": "Automated Process",
+    "profilePhotoUrl": "https://apmsandbox--c.na53.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-07-20T19:12:08.000Z",
+  "datasets": [
+    {
+      "id": "0Fbf2000000HnBkCAK",
+      "label": "Period",
+      "name": "Period",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBkCAK"
+    },
+    {
+      "id": "0Fbf2000000HnBlCAK",
+      "label": "User",
+      "name": "User1",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBlCAK"
+    },
+    {
+      "id": "0Fbf2000000HnBmCAK",
+      "label": "ForecastingData",
+      "name": "ForecastingData",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBmCAK"
+    }
+  ],
+  "dateVersion": 1,
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 2963,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJf2000000Ti6eGAC",
+      "lastModifiedDate": "2018-07-20T19:12:08.000Z",
+      "url": "/services/data/v44.0/wave/lenses/0FKf2000000msCXGAY/files/0FJf2000000Ti6eGAC"
+    }
+  ],
+  "folder": {
+    "id": "00lf2000002Sm82AAC",
+    "label": "Einstein Forecasting",
+    "name": "DefaultForecastingAnalytics",
+    "url": "/services/data/v44.0/wave/folders/00lf2000002Sm82AAC"
+  },
+  "id": "0FKf2000000msCXGAY",
+  "label": "TrendingPerformance",
+  "lastModifiedBy": {
+    "id": "005f20000090QinAAE",
+    "name": "Automated Process",
+    "profilePhotoUrl": "https://apmsandbox--c.na53.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-10-13T12:38:11.000Z",
+  "mobileDisabled": true,
+  "name": "TrendingPerformance_Dashboard",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2018-10-13T12:41:08.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "name": "Mobile",
+        "numColumns": 1,
+        "pages": [
+          {
+            "name": "Page1",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 1,
+                "column": 0,
+                "name": "mobileErrorText",
+                "row": 0,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [
+          "maxWidth(599)",
+          "platform(iOS)"
+        ],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#F2F6FA",
+          "cellSpacingX": 8,
+          "cellSpacingY": 8,
+          "fit": "original",
+          "gutterColor": "#C5D3E0"
+        },
+        "version": 1
+      },
+      {
+        "name": "Desktop",
+        "numColumns": 48,
+        "pages": [
+          {
+            "name": "Page2",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 10,
+                "column": 1,
+                "name": "number_1",
+                "row": 1,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 11,
+                "name": "number_2",
+                "row": 1,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 10,
+                "column": 20,
+                "name": "number_3",
+                "row": 1,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 9,
+                "column": 30,
+                "name": "number_4",
+                "row": 1,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 40,
+                "name": "filtersText",
+                "row": 1,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 8,
+                "column": 40,
+                "name": "teamMemebersSelector",
+                "row": 5,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "left"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 8,
+                "column": 40,
+                "name": "forecastMeasuresSelector",
+                "row": 11,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "left"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 8,
+                "column": 40,
+                "name": "filterContainer",
+                "row": 0,
+                "rowspan": 51,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "left"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 40,
+                "column": 0,
+                "name": "TrendingPerformanceChart",
+                "row": 8,
+                "rowspan": 43,
+                "widgetStyle": {
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "right"
+                  ],
+                  "borderWidth": 8
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "footerContainer",
+                "row": 51,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "fine",
+        "selectors": [
+          "minWidth(600)"
+        ],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#FFFFFF",
+          "cellSpacingX": 8,
+          "cellSpacingY": 0,
+          "fit": "original",
+          "gutterColor": "#C5D3E0"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "ForecastingPrediction": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "ForecastingPrediction",
+        "numbers": [],
+        "query": "q = load &quot;ForecastingData&quot;;q = filter q by &#39;Type&#39; == &quot;Prediction&quot; &amp;&amp; &#39;Category&#39; == &quot;Prediction&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot;;\nq = foreach q generate &#39;Owner_ID&#39; as &#39;OwnerId&#39;, &#39;Value&#39;  as &#39;PredictionAmount&#39;;",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "CurrentUser": {
+        "broadcastFacet": false,
+        "groups": [],
+        "label": "",
+        "numbers": [],
+        "query": "u = load &quot;User1&quot;; u = filter u by &#39;Id&#39; == &quot;!{user.Id}&quot;;u = foreach u generate &#39;Id&#39; as &#39;Id&#39;;u = limit u 1;",
+        "receiveFacet": false,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {}
+      },
+      "TeamMembers": {
+        "broadcastFacet": false,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HnBlCAK",
+            "label": "User",
+            "name": "User1",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HnBlCAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;pigql&quot;:&quot;q = load &#92;&quot;User1&#92;&quot;;m = load &#92;&quot;User1&#92;&quot;;q = filter q by &#39;MgrRole.ForecastUserId&#39; == &#92;&quot;{{cell(CurrentUser.result, 0, &#92;&quot;Id&#92;&quot;).asString()}}&#92;&quot;;q = foreach q generate &#39;Id&#39; as &#39;Id&#39;, &#39;Name&#39; as &#39;Name&#39;;q = order q by &#39;Name&#39;; q = limit q 2000;m = filter m by &#39;Id&#39; == &#92;&quot;{{cell(CurrentUser.result, 0, &#92;&quot;Id&#92;&quot;).asString()}}&#92;&quot;;m = foreach m generate &#39;Id&#39; as &#39;Id&#39;, &#39;Name&#39; + &#92;&quot;&#39;s Team&#92;&quot; as &#39;Name&#39;;m = limit m 1;result = union m, q;&quot;,&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;measuresMap&quot;:{},&quot;groups&quot;:[&quot;Name&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": false,
+        "selectMode": "singlerequired",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {}
+      },
+      "FirstKPI": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "FirstKPI",
+        "numbers": [],
+        "query": "q = load &quot;ForecastingData&quot;;\nq = filter q by &#39;Type&#39; == &quot;Prediction&quot; &amp;&amp; &#39;Category&#39; == &quot;Prediction&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot;;\nq = foreach q generate &#39;Owner_ID&#39; as &#39;OwnerId&#39;, &#39;Value&#39;  as &#39;KPIValue1&#39;;\nq = foreach q generate KPIValue1 as &#39;KPIValue1_DefaultCurrency&#39;;\n",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "ForecastMeasures": {
+        "datasets": [],
+        "dimensions": [],
+        "selectMode": "multi",
+        "start": "[&quot;Predicted&quot;]",
+        "type": "static",
+        "values": [
+          "{&quot;value&quot;:&quot;Predicted&quot;,&quot;display&quot;:&quot;Einstein Prediction&quot;}",
+          "{&quot;value&quot;:&quot;CommitForecast&quot;,&quot;display&quot;:&quot;Commit&quot;}",
+          "{&quot;value&quot;:&quot;BestCaseForecast&quot;,&quot;display&quot;:&quot;Best Case&quot;}"
+        ]
+      },
+      "ForecastingClosedItem": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "ForecastingClosedItem",
+        "numbers": [],
+        "query": "q = load &quot;ForecastingData&quot;;q = filter q by &#39;Type&#39; in  [&quot;AmountWithoutManagerAdjustment&quot;, &quot;ForecastAmount&quot;] &amp;&amp; &#39;Category&#39; == &quot;ClosedOnly&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot;;\nq = foreach q generate &#39;Owner_ID&#39; as &#39;OwnerId&#39;, &#39;Type&#39; as Type, &#39;Value&#39;  as &#39;ForecastAmount&#39;, &#39;Date&#39; as &#39;Date&#39;; q = order q by (&#39;Date&#39; desc, &#39;Type&#39; desc); q = limit q 1",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "KPIDetermination": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "KPIDetermination",
+        "numbers": [],
+        "query": "a = load &quot;ForecastingData&quot;;a = filter a by &#39;Type&#39; == &quot;Quota&quot; &amp;&amp; &#39;Category&#39; == &quot;Quota&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot;;\nb = load &quot;ForecastingData&quot;;b = filter b by &#39;Type&#39; == &quot;Prediction&quot; &amp;&amp; &#39;Category&#39; == &quot;Prediction&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot;;\nc = load &quot;ForecastingData&quot;;c = filter c by &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot;;\nq = group c by &#39;Owner_ID&#39; left, a by &#39;Owner_ID&#39; left, b by &#39;Owner_ID&#39;;\nq = foreach q generate c.&#39;Owner_ID&#39; as &#39;OwnerId&#39;, a.&#39;Owner_ID&#39; as &#39;Quota Owner&#39;, b.&#39;Owner_ID&#39; as &#39;Prediction Owner&#39;, case when (a.&#39;Owner_ID&#39; is not null &amp;&amp; b.&#39;Owner_ID&#39; is not null) then &quot;PredictionAndQuota&quot; when (a.&#39;Owner_ID&#39; is not null &amp;&amp; b.&#39;Owner_ID&#39; is null) then &quot;NoPrediction&quot; when (a.&#39;Owner_ID&#39; is null &amp;&amp; b.&#39;Owner_ID&#39; is not null) then &quot;NoQuota&quot; else &quot;NoPredictionNoQuota&quot; end as &#39;KPIDetermination&#39;;",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "TrendingPerformanceChartStep": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "",
+        "numbers": [],
+        "query": "q = load &quot;ForecastingData&quot;;q = filter q by &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; (&#39;Category&#39; == &quot;Actual&quot; || &#39;Category&#39; in {{coalesce(column(ForecastMeasures.selection, [&quot;value&quot;]), &quot;[]&quot;).asString()}}) &amp;&amp; ((&#39;Category&#39; in [&quot;Actual&quot;, &quot;Predicted&quot;]) || (&#39;Type&#39; == &quot;ForecastAmount&quot; &amp;&amp; &#39;Owner_ID&#39; != &quot;!{user.Id}&quot;) || (&#39;Type&#39; == &quot;AmountWithoutManagerAdjustment&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;!{user.Id}&quot;));q = group q by (&#39;Date_Year&#39;, &#39;Date_Month&#39;, &#39;Date_Day&#39;, &#39;Category&#39;, &#39;Type&#39;);q = foreach q generate (((&#39;Date_Year&#39; + &quot;~~~&quot;) + &#39;Date_Month&#39;) + &quot;~~~&quot;) + &#39;Date_Day&#39; as &#39;Date_Year~~~Date_Month~~~Date_Day&#39;, &#39;Category&#39; as &#39;Category&#39;, first(&#39;Value&#39;)  as &#39;Amount&#39;,  case when &#39;Category&#39; == &quot;Predicted&quot; then sum(&#39;ValueHigherBound&#39;)  end as &#39;Upper Bound&#39;, case when &#39;Category&#39; == &quot;Predicted&quot; then sum(&#39;ValueLowerBound&#39;)  end as &#39;Lower Bound&#39;;q = order q by (&#39;Date_Year~~~Date_Month~~~Date_Day&#39; desc, &#39;Category&#39; desc);q = limit q 100;",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "time"
+        }
+      },
+      "ForecastingCommitItem": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "ForecastingCommitItem",
+        "numbers": [],
+        "query": "q = load &quot;ForecastingData&quot;;q = filter q by &#39;Type&#39; in  [&quot;AmountWithoutManagerAdjustment&quot;, &quot;ForecastAmount&quot;] &amp;&amp; &#39;Category&#39; == &quot;CommitForecast&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot;;\nq = foreach q generate &#39;Owner_ID&#39; as &#39;OwnerId&#39;, &#39;Type&#39; as Type, &#39;Value&#39;  as &#39;ForecastAmount&#39;, &#39;Date&#39; as &#39;Date&#39;; q = order q by (&#39;Date&#39; desc, &#39;Type&#39; desc); q = limit q 1",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "ForecastingQuotaStep": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "ForecastingQuotaStep",
+        "numbers": [],
+        "query": "q = load &quot;ForecastingData&quot;;q = filter q by &#39;Type&#39; == &quot;Quota&quot; &amp;&amp; &#39;Category&#39; == &quot;Quota&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot;;q = foreach q generate &#39;Value&#39;  as &#39;Amount&#39;;q = limit q 1;",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "FirstPredictedDate": {
+        "broadcastFacet": false,
+        "groups": [],
+        "label": "FirstPredictedDate",
+        "numbers": [],
+        "query": "q = load &quot;ForecastingData&quot;;q = filter q by &#39;Type&#39; == &quot;Predicted&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot;;q = foreach q generate &#39;Date&#39; as &#39;Date&#39;;q = order q by &#39;Date&#39; asc;q = limit q 1;",
+        "receiveFacet": false,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "ForecastingBestCaseItem": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "ForecastingBestCaseItem",
+        "numbers": [],
+        "query": "q = load &quot;ForecastingData&quot;;q = filter q by &#39;Type&#39; in  [&quot;AmountWithoutManagerAdjustment&quot;, &quot;ForecastAmount&quot;] &amp;&amp; &#39;Category&#39; == &quot;BestCaseForecast&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot;;\nq = foreach q generate &#39;Owner_ID&#39; as &#39;OwnerId&#39;, &#39;Type&#39; as Type, &#39;Value&#39;  as &#39;ForecastAmount&#39;, &#39;Date&#39; as &#39;Date&#39;; q = order q by (&#39;Date&#39; desc, &#39;Type&#39; desc); q = limit q 1",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "KPICalculation_Cumulative": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "KPICalculation_Cumulative",
+        "numbers": [],
+        "query": "r = load &quot;ForecastingData&quot;;\nq = load &quot;User1&quot;;\nq = filter q by &#39;Id&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot;;\nq = foreach q generate (case &quot;{{cell(KPIDetermination.result, 0, &quot;KPIDetermination&quot;).asString()}}&quot; when &quot;PredictionAndQuota&quot; then {{coalesce(cell(ForecastingPrediction.result,0,&quot;PredictionAmount&quot;),0).asObject()}} when &quot;NoQuota&quot; then {{coalesce(cell(ForecastingPrediction.result,0,&quot;PredictionAmount&quot;),0).asObject()}} else {{coalesce(cell(ForecastingClosedItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} end) as &#39;KPIValue1&#39;, (case &quot;{{cell(KPIDetermination.result, 0, &quot;KPIDetermination&quot;).asString()}}&quot; when &quot;PredictionAndQuota&quot; then &quot;Einstein Prediction&quot; when &quot;NoQuota&quot; then &quot;Einstein Prediction&quot; else &quot;Closed&quot; end) as &#39;KPILabel1&#39;, (case &quot;{{cell(KPIDetermination.result, 0, &quot;KPIDetermination&quot;).asString()}}&quot; when &quot;PredictionAndQuota&quot; then {{coalesce(cell(ForecastingPrediction.result,0,&quot;PredictionAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingQuota.result,0,&quot;Amount&quot;),0).asObject()}} when &quot;NoQuota&quot; then {{coalesce(cell(ForecastingPrediction.result,0,&quot;PredictionAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingCommitItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} when &quot;NoPrediction&quot; then {{coalesce(cell(ForecastingClosedItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingQuota.result,0,&quot;Amount&quot;),0).asObject()}} else {{coalesce(cell(ForecastingClosedItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingCommitItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} end) as &#39;KPIValue2&#39;, (case &quot;{{cell(KPIDetermination.result, 0, &quot;KPIDetermination&quot;).asString()}}&quot; when &quot;PredictionAndQuota&quot; then &quot;Einstein Prediction to Quota Gap&quot; when &quot;NoQuota&quot; then &quot;Einstein Prediction to Commit Gap&quot; when &quot;NoPrediction&quot; then &quot;Closed to Quota Gap&quot; else &quot;Closed to Commit Gap&quot; end) as &#39;KPILabel2&#39;, (case &quot;{{cell(KPIDetermination.result, 0, &quot;KPIDetermination&quot;).asString()}}&quot; when &quot;PredictionAndQuota&quot; then {{coalesce(cell(ForecastingPrediction.result,0,&quot;PredictionAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingCommitItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} when &quot;NoQuota&quot; then {{coalesce(cell(ForecastingClosedItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingPrediction.result,0,&quot;PredictionAmount&quot;),0).asObject()}} when &quot;NoPrediction&quot; then {{coalesce(cell(ForecastingCommitItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingQuota.result,0,&quot;Amount&quot;),0).asObject()}} else {{coalesce(cell(ForecastingCommitItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingBestCaseItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} end) as &#39;KPIValue3&#39;, (case &quot;{{cell(KPIDetermination.result, 0, &quot;KPIDetermination&quot;).asString()}}&quot; when &quot;PredictionAndQuota&quot; then &quot;Einstein Prediction to Commit Gap&quot; when &quot;NoQuota&quot; then &quot;Closed to Einstein Prediction Gap&quot; when &quot;NoPrediction&quot; then &quot;Commit to Quota Gap&quot; else &quot;Commit to Best Case Gap&quot; end) as &#39;KPILabel3&#39;, (case &quot;{{cell(KPIDetermination.result, 0, &quot;KPIDetermination&quot;).asString()}}&quot; when &quot;PredictionAndQuota&quot; then {{coalesce(cell(ForecastingClosedItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingQuota.result,0,&quot;Amount&quot;),0).asObject()}} when &quot;NoQuota&quot; then {{coalesce(cell(ForecastingClosedItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingCommitItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} when &quot;NoPrediction&quot; then {{coalesce(cell(ForecastingClosedItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingCommitItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} else {{coalesce(cell(ForecastingClosedItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}}-{{coalesce(cell(ForecastingBestCaseItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} end) as &#39;KPIValue4&#39;, (case &quot;{{cell(KPIDetermination.result, 0, &quot;KPIDetermination&quot;).asString()}}&quot; when &quot;PredictionAndQuota&quot; then &quot;Closed to Quota Gap&quot; when &quot;NoQuota&quot; then &quot;Closed to Commit Gap&quot; when &quot;NoPrediction&quot; then &quot;Closed to Commit Gap&quot; else &quot;Closed to Best Case Gap&quot; end) as &#39;KPILabel4&#39;;\nq = foreach q generate &#39;KPIValue1&#39; as &#39;KPIValue1_DefaultCurrency&#39;, &#39;KPILabel1&#39;, case when (&#39;KPIValue1&#39; == 0) then &quot;#788ABF&quot; when (&#39;KPIValue1&#39; &lt; 0) then &quot;#D14062&quot; else &quot;#0BA976&quot; end as &#39;KPIColor1&#39;, &#39;KPIValue2&#39; as &#39;KPIValue2_DefaultCurrency&#39;, &#39;KPILabel2&#39;, case when (&#39;KPIValue2&#39; == 0) then &quot;#788ABF&quot; when (&#39;KPIValue2&#39; &lt; 0) then &quot;#D14062&quot; else &quot;#0BA976&quot; end as &#39;KPIColor2&#39;, &#39;KPIValue3&#39; as &#39;KPIValue3_DefaultCurrency&#39;, &#39;KPILabel3&#39;, case when (&#39;KPIValue3&#39; == 0) then &quot;#788ABF&quot; when (&#39;KPIValue3&#39; &lt; 0) then &quot;#D14062&quot; else &quot;#0BA976&quot; end as &#39;KPIColor3&#39;, &#39;KPIValue4&#39; as &#39;KPIValue4_DefaultCurrency&#39;, &#39;KPILabel4&#39;, case when (&#39;KPIValue4&#39; == 0) then &quot;#788ABF&quot; when (&#39;KPIValue4&#39; &lt; 0) then &quot;#D14062&quot; else &quot;#0BA976&quot; end as &#39;KPIColor4&#39;;",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "KPICalculation_Non_Cumulative": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "KPICalculation_Non_Cumulative",
+        "numbers": [],
+        "query": "r = load &quot;ForecastingData&quot;;\nq = load &quot;User1&quot;;\nq = filter q by &#39;Id&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot;;\nq = foreach q generate (case &quot;{{cell(KPIDetermination.result, 0, &quot;KPIDetermination&quot;).asString()}}&quot; when &quot;PredictionAndQuota&quot; then {{coalesce(cell(ForecastingPrediction.result,0,&quot;PredictionAmount&quot;),0).asObject()}} when &quot;NoQuota&quot; then {{coalesce(cell(ForecastingPrediction.result,0,&quot;PredictionAmount&quot;),0).asObject()}} else {{coalesce(cell(ForecastingClosedItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} end) as &#39;KPIValue1&#39;, (case &quot;{{cell(KPIDetermination.result, 0, &quot;KPIDetermination&quot;).asString()}}&quot; when &quot;PredictionAndQuota&quot; then &quot;Einstein Prediction&quot; when &quot;NoQuota&quot; then &quot;Einstein Prediction&quot; else &quot;Closed&quot; end) as &#39;KPILabel1&#39;, {{coalesce(cell(ForecastingClosedItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} as &#39;KPIValue2&#39;, &quot;Closed&quot; as &#39;KPILabel2&#39;, {{coalesce(cell(ForecastingCommitItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} as &#39;KPIValue3&#39;, &quot;Commit&quot; as &#39;KPILabel3&#39;, {{coalesce(cell(ForecastingBestCaseItem.result,0,&quot;ForecastAmount&quot;),0).asObject()}} as &#39;KPIValue4&#39;, &quot;Best Case&quot; as &#39;KPILabel4&#39;;\nq = foreach q generate KPIValue1 as &#39;KPIValue1_DefaultCurrency&#39;, KPILabel1, KPIValue2 as &#39;KPIValue2_DefaultCurrency&#39;, KPILabel2, (case when KPIValue2&lt;0 then &quot;#D14062&quot; else &quot;#08A976&quot; end) as &#39;KPIColor2&#39;, KPIValue3 as &#39;KPIValue3_DefaultCurrency&#39;, KPILabel3, (case when KPIValue3&lt;0 then &quot;#D14062&quot; else &quot;#08A976&quot; end) as &#39;KPIColor3&#39;, KPIValue4 as &#39;KPIValue4_DefaultCurrency&#39;, KPILabel4, (case when KPIValue4&lt;0 then &quot;#D14062&quot; else &quot;#08A976&quot; end) as &#39;KPIColor4&#39;;\n",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "CurrentPeriod": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "CurrentPeriod",
+        "numbers": [],
+        "query": "q = load &quot;Period&quot;;q = filter q by date(&#39;StartDate_Year&#39;, &#39;StartDate_Month&#39;, &#39;StartDate_Day&#39;) in [&quot;current month&quot;..&quot;current month&quot;];q = filter q by &#39;Type&#39; in [&quot;Month&quot;, &quot;0&quot;];q = foreach q generate &#39;EndDate&#39; as &#39;EndDate&#39;, &#39;Id&#39; as &#39;Id&#39;, &#39;StartDate&#39; as &#39;StartDate&#39;, upper(toString(now(), &quot;yyyy-MM-dd&quot;)) as &#39;now&#39;;q = limit q 1;",
+        "receiveFacet": true,
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "ForecastingQuota": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "ForecastingQuota",
+        "numbers": [],
+        "query": "q = load &quot;ForecastingData&quot;;q = filter q by &#39;Type&#39; == &quot;Quota&quot; &amp;&amp; &#39;Category&#39; == &quot;Quota&quot; &amp;&amp; &#39;Owner_ID&#39; == &quot;{{cell(TeamMembers.selection, 0, &quot;Id&quot;).asString()}}&quot; &amp;&amp; &#39;Period_ID&#39; == &quot;{{cell(CurrentPeriod.result, 0, &quot;Id&quot;).asString()}}&quot;;\nq = foreach q generate &#39;Owner_ID&#39; as &#39;OwnerId&#39;, &#39;Value&#39;  as &#39;Amount&#39;;",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "number_4": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "KPIValue4_DefaultCurrency",
+          "numberColor": "{{cell(KPICalculation_Cumulative.result, 0, &quot;KPIColor4&quot;).asString()}}",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "KPICalculation_Cumulative",
+          "textAlignment": "center",
+          "title": "{{cell(KPICalculation_Cumulative.result, 0, &quot;KPILabel4&quot;).asString()}}",
+          "titleColor": "#335779",
+          "titleSize": 14
+        },
+        "type": "number"
+      },
+      "footerContainer": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "number_3": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "KPIValue3_DefaultCurrency",
+          "numberColor": "{{cell(KPICalculation_Cumulative.result, 0, &quot;KPIColor3&quot;).asString()}}",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "KPICalculation_Cumulative",
+          "textAlignment": "center",
+          "title": "{{cell(KPICalculation_Cumulative.result, 0, &quot;KPILabel3&quot;).asString()}}",
+          "titleColor": "#335779",
+          "titleSize": 14
+        },
+        "type": "number"
+      },
+      "number_2": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "KPIValue2_DefaultCurrency",
+          "numberColor": "{{cell(KPICalculation_Cumulative.result, 0, &quot;KPIColor2&quot;).asString()}}",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "KPICalculation_Cumulative",
+          "textAlignment": "center",
+          "title": "{{cell(KPICalculation_Cumulative.result, 0, &quot;KPILabel2&quot;).asString()}}",
+          "titleColor": "#335779",
+          "titleSize": 14
+        },
+        "type": "number"
+      },
+      "number_1": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "KPIValue1_DefaultCurrency",
+          "numberColor": "#335779",
+          "numberSize": 32,
+          "showActionMenu": true,
+          "step": "KPICalculation_Cumulative",
+          "textAlignment": "center",
+          "title": "{{cell(KPICalculation_Cumulative.result, 0, &quot;KPILabel1&quot;).asString()}}",
+          "titleColor": "#335779",
+          "titleSize": 14
+        },
+        "type": "number"
+      },
+      "mobileErrorText": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "This dashboard is not available on Mobile.",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "filterContainer": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "teamMemebersSelector": {
+        "parameters": {
+          "compact": false,
+          "displayTemplate": "[&quot;Name&quot;]",
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "none",
+          "showActionMenu": false,
+          "step": "TeamMembers",
+          "title": "Team Members"
+        },
+        "type": "listselector"
+      },
+      "filtersText": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "Filters",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "TrendingPerformanceChart": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showPoints": true,
+          "legend": {
+            "showHeader": false,
+            "show": true,
+            "customSize": 10,
+            "position": "bottom-center",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": [
+              "Amount",
+              "Upper Bound",
+              "Lower Bound"
+            ],
+            "showPercentage": false,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": true,
+            "dimensions": [
+              "Date_Year~~~Date_Month~~~Date_Day",
+              "Category",
+              "Currency"
+            ]
+          },
+          "visualizationType": "time",
+          "missingValue": "cumulativeUntilLastData",
+          "exploreLink": true,
+          "timeAxis": {
+            "showTitle": false,
+            "predictiveLine": {
+              "color": "rgb(22, 50, 92)",
+              "time": "{{coalesce(cell(FirstPredictedDate.result, 0, &quot;Date&quot;), cell(CurrentPeriod.result, 0, &quot;now&quot;)).asString()}}",
+              "label": "Today"
+            },
+            "showAxis": true,
+            "title": ""
+          },
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "fillArea": false,
+          "showActionMenu": true,
+          "showZero": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": false,
+            "showAxis": true,
+            "referenceLines": [
+              {
+                "color": "rgb(46, 196, 78)",
+                "label": "Quota: {{cell(ForecastingQuotaStep.result, 0, &quot;Amount&quot;).asString()}}",
+                "value": "{{cell(ForecastingQuotaStep.result, 0, &quot;Amount&quot;).asObject()}}"
+              }
+            ],
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "theme": "wave",
+          "step": "TrendingPerformanceChartStep",
+          "drawArea": {
+            "measure": "Amount",
+            "showDrawArea": true,
+            "bounding1": "Lower Bound",
+            "bounding2": "Upper Bound"
+          }
+        },
+        "type": "chart"
+      },
+      "forecastMeasuresSelector": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "ForecastMeasures",
+          "title": "Forecast Measures"
+        },
+        "type": "listselector"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v44.0/wave/dashboards/0FKf2000000msCXGAY"
+}
